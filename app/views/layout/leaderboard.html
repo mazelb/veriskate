@@ -1,0 +1,80 @@
+<div ng-controller="leaderboardCtrl as vm">
+
+    <div id="skater-list">
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-default" role="navigation" id="main-nav">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-2 col-sm-1">
+                        <div class="btn-group btn-group-justified">
+                            <a class="btn btn-default glyphicon glyphicon-chevron-left" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-10 col-sm-5">
+                        <div class="btn-group btn-group-justified">
+                            <div class="btn btn-default active">List</div>
+                            <div class="btn btn-default disabled">Graph</div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="dropdown dropdown-justified">
+                            <a class="btn-block btn btn-default dropdown-toggle disabled" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" ng-repeat="evCat in vm.categories"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.categoryChanged($index)">{{evCat.cat_name}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-12">
+                        <form class="navbar-form" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!-- FILTERED LIST -->
+        <div class="container-fluid">
+            <ul class="list-header row">
+                <li class="col-xs-4" ng-click="vm.changeSortingPredicate('names', 0)">
+                    <center ng-class="{'bold':vm.isCurSortingPredicate('names')}">Competitor(s)<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span></center>
+                </li>
+                <!--<li class="col-xs-2" ng-repeat="evCatStat in vm.categories[vm.curCat].stats_tracked">{{evCatStat.stat_name}}</li>-->
+                <li class="col-xs-2" ng-repeat="evCatStat in vm.OverviewStats.stats_tracked" ng-click="vm.changeSortingPredicate(evCatStat.stat_id)">
+                    <center ng-class="{'bold':vm.isCurSortingPredicate(evCatStat.stat_id)}">{{evCatStat.stat_name}}<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span></center>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.competitorSelected($index)">
+                    <div class="col-xs-4">
+                        <center ng-repeat="evName in evCompetitor.names">{{evName}}</center>
+                    </div>
+                    <ul class="list">
+                        <li class="col-xs-2">
+                            <center>{{evCompetitor.overview.ranking}}</center>
+                        </li>
+                        <li class="col-xs-2">
+                            <center>{{evCompetitor.overview.avg_speed}}</center>
+                        </li>
+                        <li class="col-xs-2">
+                            <center>{{evCompetitor.overview.max_speed}}</center>
+                        </li>
+                        <li class="col-xs-2">
+                            <center>{{evCompetitor.overview.ice_coverage}}</center>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- end FILTERED LIST -->
+    </div>
+</div>
+

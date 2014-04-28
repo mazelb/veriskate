@@ -1,0 +1,87 @@
+<div ng-controller="competitorCtrl as vm">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default" role="navigation" id="main-nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 col-xs-2">
+                    <div class="btn-group btn-group-justified">
+                        <a class="btn btn-default glyphicon glyphicon-chevron-left" href="#/leaderboard"></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-7 col-xs-10">
+                    <div class="dropdown dropdown-justified">
+                        <a class="btn-block btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Filter Specific Move <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a role="menuitem" tabindex="0" ng-click="vm.gotoOverview()">Overview</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation" ng-repeat="evMove in vm.moves"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.gotoMove($index)">{{evMove.move_name + ' ' + evMove.move_id}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-12">
+                    <form class="navbar-form" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+        
+    <!-- MAIN CONTENT -->
+    <div class="row">
+
+        <!-- VIDEO CONTENT -->
+        <div class="col-md-8">
+            <center><img src="http://placehold.it/600x600"></center>
+            <!--<center><img src="http://placehold.it/600x600" ng-src="{{vm.competitor.overview.video_url}}"></center>-->
+        </div>
+        <!-- end VIDEO CONTENT  -->
+
+        <!-- SIDEBAR-->
+        <div class="col-md-4">
+            <ul class="list">
+                <li>
+                    <center>
+                        <div class="row">
+                            <img class="col-sm-4" src="http://placehold.it/100x100">
+                            <h2 class="col-sm-8" ng-repeat="evName in vm.competitor.names">{{evName}}</h2>
+                        </div>
+                    </center>
+                </li>
+                <li>
+                    <center>
+                        <h3>Ranking</h3>
+                        <h3>{{vm.competitor.overview.ranking}}</h3>
+                    </center>
+                </li>
+                <li>
+                    <center>
+                        <h3>Avg. Speed</h3>
+                        <h3>{{vm.competitor.overview.avg_speed}}</h3>
+                    </center>
+                </li>
+                <li>
+                    <center>
+                        <h3>Max. Speed</h3>
+                        <h3>{{vm.competitor.overview.max_speed}}</h3>
+                    </center>
+                </li>
+                <li>
+                    <center>
+                        <h3>Ice Coverage</h3>
+                        <h3>{{vm.competitor.overview.ice_coverage}}</h3>
+                    </center>
+                </li>
+            </ul>
+        </div>
+        <!-- end SIDEBAR  -->
+
+    </div>
+    <!-- end MAIN CONTENT  -->
+</div>
+

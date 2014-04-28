@@ -1,0 +1,40 @@
+<div ng-controller="moveCtrl as vm">
+
+    <div>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-default" role="navigation" id="main-nav">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1 col-xs-2">
+                        <div class="btn-group btn-group-justified">
+                            <a class="btn btn-default glyphicon glyphicon-chevron-left" href="#/competitor"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-7 col-xs-10">
+                        <div class="dropdown dropdown-justified">
+                            <a class="btn-block btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Filter Specific Move <span class="caret"></span> (Overview) </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" ng-repeat="evCat in vm.categories"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.categoryChanged($index)">{{evCat.cat_name}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-12">
+                        <form class="navbar-form" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+        <!-- MAIN CONTENT -->
+        
+        <!-- end MAIN CONTENT  -->
+    </div>
+</div>
+

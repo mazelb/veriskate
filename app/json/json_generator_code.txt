@@ -1,0 +1,402 @@
+{
+    stats_cat:
+    [
+        {
+            cat_name: 'Overview',
+            cat_id: 'overview',
+            stats_tracked: [
+                {
+                    stat_name: 'Ranking', 
+                    stat_id: 'ranking'
+                },
+                {
+                    stat_name: 'Avg. Speed', 
+                    stat_id: 'avg_speed'
+                },
+                {
+                    stat_name: 'Max. Speed', 
+                    stat_id: 'max_speed'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'ice_coverage'
+                }                
+            ]
+        },
+        {
+            cat_name: 'Jumps',
+            cat_id: 'jumps',
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'jump_speed'
+                },
+                {
+                    stat_name: 'Height', 
+                    stat_id: 'jump_height'
+                },
+                {
+                    stat_name: 'Distance', 
+                    stat_id: 'jump_distance'
+                }
+            ]
+        },
+        {
+            cat_name: 'Lifts',
+            cat_id: 'lifts',
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'lift_speed'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'lift_flow'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'lift_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'Twists',
+            cat_id: 'twists',
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'twist_speed'
+                },
+                {
+                    stat_name: 'Height', 
+                    stat_id: 'twist_height'
+                }
+            ]
+        }
+    ],
+        
+    events:
+    [
+        {
+            event_name: 'Men Events',
+            event_type: 'men',
+            programs: 
+            [
+                {
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'male',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            jumps: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    jump_id: '{{index()}}',
+                                    jump_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_distance: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Long Program',
+                    program_type: 'long',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'male',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            jumps: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    jump_id: '{{index()}}',
+                                    jump_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_distance: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+
+        {
+            event_name: 'Ladies Events',
+            event_type: 'ladies',
+            programs: 
+            [
+                {
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'female',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            jumps: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    jump_id: '{{index()}}',
+                                    jump_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_distance: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Long Program',
+                    program_type: 'long',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'female',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            jumps: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    jump_id: '{{index()}}',
+                                    jump_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    jump_distance: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            event_name: 'Pairs Events',
+            event_type: 'pairs',
+            programs: 
+            [
+                {
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            lifts: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    lift_id: '{{index()}}',
+                                    lift_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ],
+                            twists: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    twist_id: '{{index()}}',
+                                    twist_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    twist_height: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Long Program',
+                    program_type: 'long',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            lifts: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    lift_id: '{{index()}}',
+                                    lift_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ],
+                            twists: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    twist_id: '{{index()}}',
+                                    twist_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    twist_height: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            event_name: 'Ice Dance Events',
+            event_type: 'ice_dance',
+            programs: 
+            [
+                {
+                    program_name: 'Short Dance',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            lifts: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    lift_id: '{{index()}}',
+                                    lift_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Free Dance',
+                    program_type: 'free',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/32x32',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                            },
+                            lifts: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    lift_id: '{{index()}}',
+                                    lift_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    lift_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+	"status":	"OK",
+	"skaters": [
+		{
+			"name"		:	"Peggy Fleming",
+			"uri"		:	"images/peggy_fleming.jpg",
+			"stats"		: {
+				"difficulty"	:	"40.80",
+				"speed"			:	"15.36",
+				"flow"			:	"48",
+				"height"		:	"0.4",
+				"distance"		:	"1.4"
+			}
+		},
+		{
+			"name"		:	"Dorothy Hamill",
+			"uri"		:	"images/dorothy_hamill.jpg",
+			"stats"		: {
+				"difficulty"	:	"41.80",
+				"speed"			:	"14.33",
+				"flow"			:	"53",
+				"height"		:	"0.35",
+				"distance"		:	"1.2"
+			}
+		},
+		{
+			"name"		:	"Katarina Witt",
+			"uri"		:	"images/katarina_witt.jpg",
+			"stats"		: {
+				"difficulty"	:	"42.90",
+				"speed"			:	"13.18",
+				"flow"			:	"49",
+				"height"		:	"0.48",
+				"distance"		:	"0.9"
+			}
+		},
+		{
+			"name"		:	"Kristi Yamaguchi",
+			"uri"		:	"images/kristi_yamaguchi.jpg",
+			"stats"		: {
+				"difficulty"	:	"45.87",
+				"speed"			:	"16.16",
+				"flow"			:	"48",
+				"height"		:	"0.57",
+				"distance"		:	"1.4"
+			}
+		}
+
+	]
+}
