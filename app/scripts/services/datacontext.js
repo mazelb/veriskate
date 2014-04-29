@@ -10,7 +10,8 @@
         var StatsCategories = null;
         var curEvent = 0;
         var curProgram = 0;
-        var curCompetitor = 0;
+        var curCompetitor = null;
+        var curMove = null;
 
         var service = {
             getCompetitionData: getCompetitionData,
@@ -18,7 +19,8 @@
             StatsCategories: StatsCategories,
             curEvent :curEvent,
             curProgram :curProgram,
-            curCompetitor :curCompetitor
+            curCompetitor: curCompetitor,
+            curMove: curMove
         };
 
         return service;

@@ -53,9 +53,12 @@
             </ul>
 
             <ul class="list">
-                <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.competitorSelected($index)">
+                <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.competitorSelected(evCompetitor)">
                     <div class="col-xs-4">
-                        <center ng-repeat="evName in evCompetitor.names">{{evName}}</center>
+                        <div class="row">
+                            <img class="col-xs-3" ng-src="{{evCompetitor.picture}}" />
+                            <center class="col-xs-6" ng-repeat="evName in evCompetitor.names">{{evName}}</center>
+                        </div>
                     </div>
                     <ul class="list">
                         <li class="col-xs-2">

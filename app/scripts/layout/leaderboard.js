@@ -80,8 +80,8 @@
         }
 
         //When a competitor is selected, switch to details view of competitor
-        vm.competitorSelected = function (vIdx) {
-            datacontext.curCompetitor = vIdx;
+        vm.competitorSelected = function (vCompetitor) {
+            datacontext.curCompetitor = vCompetitor;
             $location.path('/competitor/');
         }
         

@@ -91,7 +91,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}'
                             ],
@@ -102,7 +102,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -111,7 +111,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_name: 'jump',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -131,7 +131,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}'
                             ],
@@ -142,7 +142,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -151,7 +151,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_name: 'jump',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -179,7 +179,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}'
                             ],
@@ -190,7 +190,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -199,7 +199,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_name: 'jump',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -219,7 +219,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}'
                             ],
@@ -230,7 +230,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -239,7 +239,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_name: 'jump',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -267,7 +267,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}',
                                 '{{firstName()}} {{surname()}}'
@@ -278,7 +278,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -287,7 +287,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -300,7 +300,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'twists',
                                     move_name: 'twist',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -320,7 +320,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}',
                                 '{{firstName()}} {{surname()}}'
@@ -331,7 +331,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -340,7 +340,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -353,7 +353,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'twists',
                                     move_name: 'twist',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -381,7 +381,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}',
                                 '{{firstName()}} {{surname()}}'
@@ -392,7 +392,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -401,7 +401,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
@@ -421,7 +421,7 @@
                         {
                             id: '{{index()}}',
                             guid: '{{guid()}}',
-                            picture: 'http://placehold.it/32x32',
+                            picture: 'http://placehold.it/100x100',
                             names: [
                                 '{{firstName()}} {{surname()}}',
                                 '{{firstName()}} {{surname()}}'
@@ -432,7 +432,7 @@
                                 avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
                                 ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
-                                video_url: 'http://placehold.it/300x300'
+                                video_url: 'http://placehold.it/600x600'
                             },
                             moves: 
                             [
@@ -441,7 +441,7 @@
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
-                                    move_video_url: 'http://placehold.it/300x300',
+                                    move_video_url: 'http://placehold.it/600x600',
                                     move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_height: '{{numeric(0.5, 100.00, 0.00)}}',
                                     move_distance: '{{numeric(0.5, 100.00, 0.00)}}',

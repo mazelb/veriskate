@@ -16,27 +16,32 @@
     //    return keys;
     //}
 
+    //TODO: add nested views support using https://github.com/angular-ui/ui-router
+    
+    //TODO: separate the Navigation for Skater overview & move using a different controller 
+
+    //TODO: maybe separate the sidebar into a different reusable controller also
+
+    //TODO: add the search logic in the skater details views 
+
     function competitorCtrl($location, datacontext) {
         var vm = this;
 
         vm.title = 'Competitor Details Overview';
 
         //Get the current competitor from the datacontext service
-        if (datacontext.CompetitionData && datacontext.CompetitionData.events.length > 0) {
-            vm.competitor = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors[datacontext.curCompetitor];
+        if (datacontext.CompetitionData && datacontext.curCompetitor && datacontext.CompetitionData.events.length > 0) {
+            vm.competitor = datacontext.curCompetitor;
             vm.moves = vm.competitor.moves;
-            //vm.
-            //if (vm.competitor.hasOwnProperty('merchant_id')) {
-
-            //}
         }
 
         vm.gotoOverview = function () {
-
+            //nothign to do here
         }
 
-        vm.gotoMove = function (vIdx) {
-
+        vm.gotoMove = function (vMove) {
+            datacontext.curMove = vMove;
+            $location.path('/move/');
         }
     }
 })();

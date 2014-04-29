@@ -84,201 +84,314 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "e88d8c2b-6a25-4efd-8874-1605704456a6",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "7ab2a9b7-5cb2-44ab-8aff-493c1166349a",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Pauline Clarke"
+                                "Gaines Austin"
                             ],
                             "gender": "male",
                             "overview": {
-                                "ranking": 0,
-                                "avg_speed": 37,
-                                "max_speed": 36,
-                                "ice_coverage": 98,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 8,
+                                "avg_speed": 30,
+                                "max_speed": 68,
+                                "ice_coverage": 37,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 99,
-                                    "move_height": 26,
-                                    "move_distance": 61,
-                                    "move_flow": 26,
-                                    "move_coverage": 3
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 48,
+                                    "move_height": 14,
+                                    "move_distance": 46,
+                                    "move_flow": 88,
+                                    "move_coverage": 92
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 2,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 19,
                                     "move_height": 22,
-                                    "move_distance": 91,
-                                    "move_flow": 23,
-                                    "move_coverage": 37
+                                    "move_distance": 22,
+                                    "move_flow": 44,
+                                    "move_coverage": 31
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 93,
+                                    "move_height": 69,
+                                    "move_distance": 80,
+                                    "move_flow": 40,
+                                    "move_coverage": 10
                                 }
                             ]
                         },
                         {
                             "id": 1,
-                            "guid": "7df90c25-62a3-420d-a058-9c9c6787b8a3",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "7ed722f7-be13-4d06-8850-1abcbbfea5c6",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Dorthy Stein"
+                                "Reynolds Boone"
                             ],
                             "gender": "male",
                             "overview": {
-                                "ranking": 6,
-                                "avg_speed": 53,
-                                "max_speed": 0,
-                                "ice_coverage": 32,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 5,
+                                "avg_speed": 90,
+                                "max_speed": 19,
+                                "ice_coverage": 47,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 53,
-                                    "move_height": 81,
-                                    "move_distance": 94,
-                                    "move_flow": 13,
-                                    "move_coverage": 64
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 57,
+                                    "move_height": 18,
+                                    "move_distance": 53,
+                                    "move_flow": 71,
+                                    "move_coverage": 37
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 94,
-                                    "move_height": 62,
-                                    "move_distance": 69,
-                                    "move_flow": 92,
-                                    "move_coverage": 73
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 7,
+                                    "move_height": 82,
+                                    "move_distance": 72,
+                                    "move_flow": 34,
+                                    "move_coverage": 19
                                 }
                             ]
                         },
                         {
                             "id": 2,
-                            "guid": "2b6960e7-9a8b-47c3-80f4-5ef08dbb576a",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "71e77bca-d2be-4226-9d0b-0bea35985865",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Dee Wade"
+                                "Mullen Oconnor"
                             ],
                             "gender": "male",
                             "overview": {
-                                "ranking": 1,
-                                "avg_speed": 62,
-                                "max_speed": 69,
-                                "ice_coverage": 64,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 9,
+                                "avg_speed": 93,
+                                "max_speed": 41,
+                                "ice_coverage": 81,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 42,
-                                    "move_height": 3,
-                                    "move_distance": 43,
-                                    "move_flow": 95,
-                                    "move_coverage": 59
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 10,
+                                    "move_height": 38,
+                                    "move_distance": 12,
+                                    "move_flow": 24,
+                                    "move_coverage": 13
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 86,
-                                    "move_height": 39,
-                                    "move_distance": 65,
-                                    "move_flow": 96,
-                                    "move_coverage": 90
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 65,
+                                    "move_height": 3,
+                                    "move_distance": 24,
+                                    "move_flow": 47,
+                                    "move_coverage": 16
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 83,
+                                    "move_height": 44,
+                                    "move_distance": 52,
+                                    "move_flow": 63,
+                                    "move_coverage": 13
                                 }
                             ]
                         },
                         {
                             "id": 3,
-                            "guid": "6943a830-9639-49b4-8d51-c32d5a2248e0",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "d799b2f2-6fef-43ba-ae07-e5b89ff47bfc",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Colon Medina"
+                                "Marla Fischer"
                             ],
                             "gender": "male",
                             "overview": {
-                                "ranking": 2,
-                                "avg_speed": 57,
-                                "max_speed": 66,
-                                "ice_coverage": 32,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 3,
+                                "avg_speed": 67,
+                                "max_speed": 46,
+                                "ice_coverage": 42,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 61,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 8,
                                     "move_height": 49,
-                                    "move_distance": 58,
-                                    "move_flow": 88,
-                                    "move_coverage": 94
+                                    "move_distance": 10,
+                                    "move_flow": 15,
+                                    "move_coverage": 10
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 76,
-                                    "move_height": 68,
-                                    "move_distance": 5,
-                                    "move_flow": 7,
-                                    "move_coverage": 68
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 60,
+                                    "move_height": 10,
+                                    "move_distance": 36,
+                                    "move_flow": 53,
+                                    "move_coverage": 84
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 63,
+                                    "move_height": 82,
+                                    "move_distance": 69,
+                                    "move_flow": 20,
+                                    "move_coverage": 32
                                 }
                             ]
                         },
                         {
                             "id": 4,
-                            "guid": "696bbdda-5371-4aca-ab17-3f09cd5dd4ad",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "cd5f4323-403e-4ede-8dff-2beab1ba0b5b",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Clarke Michael"
+                                "Barton Mendez"
                             ],
                             "gender": "male",
                             "overview": {
-                                "ranking": 5,
-                                "avg_speed": 88,
-                                "max_speed": 62,
-                                "ice_coverage": 73,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 1,
+                                "avg_speed": 52,
+                                "max_speed": 92,
+                                "ice_coverage": 79,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 64,
-                                    "move_height": 27,
-                                    "move_distance": 75,
-                                    "move_flow": 28,
-                                    "move_coverage": 74
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 9,
+                                    "move_height": 70,
+                                    "move_distance": 80,
+                                    "move_flow": 30,
+                                    "move_coverage": 56
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 44,
-                                    "move_height": 40,
-                                    "move_distance": 22,
-                                    "move_flow": 91,
-                                    "move_coverage": 53
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 87,
+                                    "move_height": 14,
+                                    "move_distance": 79,
+                                    "move_flow": 79,
+                                    "move_coverage": 27
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "guid": "4bd256e7-5ec4-469d-bd95-a0c455da8a73",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Atkins Larson"
+                            ],
+                            "gender": "male",
+                            "overview": {
+                                "ranking": 10,
+                                "avg_speed": 42,
+                                "max_speed": 62,
+                                "ice_coverage": 19,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 76,
+                                    "move_height": 17,
+                                    "move_distance": 54,
+                                    "move_flow": 2,
+                                    "move_coverage": 84
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 20,
+                                    "move_height": 6,
+                                    "move_distance": 77,
+                                    "move_flow": 25,
+                                    "move_coverage": 16
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "guid": "398ef92b-2ea6-42ea-b801-f63c4db7bfb3",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Nona Dawson"
+                            ],
+                            "gender": "male",
+                            "overview": {
+                                "ranking": 7,
+                                "avg_speed": 49,
+                                "max_speed": 67,
+                                "ice_coverage": 63,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 77,
+                                    "move_height": 7,
+                                    "move_distance": 98,
+                                    "move_flow": 71,
+                                    "move_coverage": 91
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 56,
+                                    "move_height": 97,
+                                    "move_distance": 65,
+                                    "move_flow": 20,
+                                    "move_coverage": 87
                                 }
                             ]
                         }
@@ -290,223 +403,303 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "dc00d352-9c99-468e-a44b-29d9104c2368",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "fedd5147-0376-47ec-a213-55f8a8f94e64",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Mcleod Sanford"
+                                "Kimberly Rivers"
                             ],
                             "gender": "male",
                             "overview": {
-                                "ranking": 10,
-                                "avg_speed": 89,
-                                "max_speed": 70,
-                                "ice_coverage": 76,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 5,
+                                "avg_speed": 46,
+                                "max_speed": 53,
+                                "ice_coverage": 95,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 45,
-                                    "move_height": 65,
-                                    "move_distance": 58,
-                                    "move_flow": 91,
-                                    "move_coverage": 77
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 19,
+                                    "move_height": 15,
+                                    "move_distance": 56,
+                                    "move_flow": 96,
+                                    "move_coverage": 86
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 85,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 82,
                                     "move_height": 11,
-                                    "move_distance": 9,
-                                    "move_flow": 59,
-                                    "move_coverage": 8
+                                    "move_distance": 56,
+                                    "move_flow": 22,
+                                    "move_coverage": 37
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 89,
-                                    "move_height": 16,
-                                    "move_distance": 8,
-                                    "move_flow": 22,
-                                    "move_coverage": 11
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 22,
+                                    "move_height": 5,
+                                    "move_distance": 70,
+                                    "move_flow": 85,
+                                    "move_coverage": 57
                                 }
                             ]
                         },
                         {
                             "id": 1,
-                            "guid": "ba2801f8-a381-4d92-b48e-1f6abe95d2c3",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "0390afe9-b057-4f50-b8b7-93cfd8914634",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Lisa Lara"
+                                "Bass Davidson"
                             ],
                             "gender": "male",
                             "overview": {
-                                "ranking": 8,
-                                "avg_speed": 21,
-                                "max_speed": 77,
-                                "ice_coverage": 71,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 2,
+                                "avg_speed": 20,
+                                "max_speed": 78,
+                                "ice_coverage": 5,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 58,
-                                    "move_height": 71,
-                                    "move_distance": 24,
-                                    "move_flow": 8,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 61,
+                                    "move_height": 46,
+                                    "move_distance": 5,
+                                    "move_flow": 34,
+                                    "move_coverage": 61
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 50,
+                                    "move_height": 43,
+                                    "move_distance": 93,
+                                    "move_flow": 50,
+                                    "move_coverage": 87
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "guid": "e96ddfde-5a34-4042-a684-b330f0690390",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Barlow Hatfield"
+                            ],
+                            "gender": "male",
+                            "overview": {
+                                "ranking": 3,
+                                "avg_speed": 72,
+                                "max_speed": 83,
+                                "ice_coverage": 51,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 84,
+                                    "move_height": 75,
+                                    "move_distance": 48,
+                                    "move_flow": 73,
+                                    "move_coverage": 49
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 74,
+                                    "move_height": 47,
+                                    "move_distance": 50,
+                                    "move_flow": 65,
+                                    "move_coverage": 47
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "guid": "f7743c05-0f8d-4ff5-a4ab-ed30eac76f65",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Davidson Lindsey"
+                            ],
+                            "gender": "male",
+                            "overview": {
+                                "ranking": 3,
+                                "avg_speed": 48,
+                                "max_speed": 79,
+                                "ice_coverage": 95,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 74,
+                                    "move_height": 9,
+                                    "move_distance": 81,
+                                    "move_flow": 21,
+                                    "move_coverage": 82
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 46,
+                                    "move_height": 75,
+                                    "move_distance": 15,
+                                    "move_flow": 38,
+                                    "move_coverage": 65
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "guid": "468f043b-b757-4e96-abeb-44c4da69d6d6",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Darlene Shannon"
+                            ],
+                            "gender": "male",
+                            "overview": {
+                                "ranking": 4,
+                                "avg_speed": 62,
+                                "max_speed": 34,
+                                "ice_coverage": 12,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 40,
+                                    "move_height": 40,
+                                    "move_distance": 1,
+                                    "move_flow": 1,
+                                    "move_coverage": 35
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 54,
+                                    "move_height": 4,
+                                    "move_distance": 34,
+                                    "move_flow": 87,
+                                    "move_coverage": 93
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "guid": "9510937c-477c-41c6-8ac9-42e5ef774f7a",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Bush Irwin"
+                            ],
+                            "gender": "male",
+                            "overview": {
+                                "ranking": 2,
+                                "avg_speed": 46,
+                                "max_speed": 39,
+                                "ice_coverage": 99,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 99,
+                                    "move_height": 70,
+                                    "move_distance": 42,
+                                    "move_flow": 74,
+                                    "move_coverage": 17
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 65,
+                                    "move_height": 97,
+                                    "move_distance": 11,
+                                    "move_flow": 45,
+                                    "move_coverage": 30
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "guid": "fe321324-879c-40fc-a674-b530c0876131",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Acevedo Lynn"
+                            ],
+                            "gender": "male",
+                            "overview": {
+                                "ranking": 6,
+                                "avg_speed": 45,
+                                "max_speed": 19,
+                                "ice_coverage": 96,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 18,
+                                    "move_height": 59,
+                                    "move_distance": 65,
+                                    "move_flow": 63,
                                     "move_coverage": 72
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 50,
-                                    "move_height": 51,
-                                    "move_distance": 31,
-                                    "move_flow": 22,
-                                    "move_coverage": 80
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "guid": "50b4505e-c71f-4d75-b856-74eca22cf96f",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Howard Reid"
-                            ],
-                            "gender": "male",
-                            "overview": {
-                                "ranking": 6,
-                                "avg_speed": 47,
-                                "max_speed": 39,
-                                "ice_coverage": 55,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 17,
-                                    "move_height": 26,
-                                    "move_distance": 52,
-                                    "move_flow": 35,
-                                    "move_coverage": 81
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 91,
-                                    "move_height": 42,
-                                    "move_distance": 100,
-                                    "move_flow": 77,
-                                    "move_coverage": 80
-                                }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "guid": "6f995367-acf6-4603-aec7-98ef69aad8dd",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Felicia Maxwell"
-                            ],
-                            "gender": "male",
-                            "overview": {
-                                "ranking": 8,
-                                "avg_speed": 54,
-                                "max_speed": 25,
-                                "ice_coverage": 36,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 8,
-                                    "move_height": 77,
-                                    "move_distance": 73,
-                                    "move_flow": 24,
-                                    "move_coverage": 75
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 23,
-                                    "move_height": 61,
-                                    "move_distance": 94,
-                                    "move_flow": 48,
-                                    "move_coverage": 92
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "guid": "79d418c3-dccd-480b-8752-62fa9465d628",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Mcmillan Glover"
-                            ],
-                            "gender": "male",
-                            "overview": {
-                                "ranking": 8,
-                                "avg_speed": 24,
-                                "max_speed": 95,
-                                "ice_coverage": 40,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 8,
-                                    "move_height": 12,
-                                    "move_distance": 64,
-                                    "move_flow": 45,
-                                    "move_coverage": 84
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 42,
-                                    "move_height": 15,
-                                    "move_distance": 84,
-                                    "move_flow": 79,
-                                    "move_coverage": 83
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 98,
+                                    "move_height": 83,
+                                    "move_distance": 67,
+                                    "move_flow": 41,
+                                    "move_coverage": 15
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 38,
-                                    "move_height": 18,
-                                    "move_distance": 84,
-                                    "move_flow": 48,
-                                    "move_coverage": 64
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 84,
+                                    "move_height": 76,
+                                    "move_distance": 91,
+                                    "move_flow": 70,
+                                    "move_coverage": 1
                                 }
                             ]
                         }
@@ -524,234 +717,314 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "0e2bf75b-04c1-48b8-bc2f-adc4de5638d4",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "a6a1e125-33a5-4cb6-8a17-bd8a445c05e5",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Stanton Trevino"
+                                "Ebony Sykes"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 10,
-                                "avg_speed": 40,
-                                "max_speed": 21,
-                                "ice_coverage": 57,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 9,
+                                "avg_speed": 65,
+                                "max_speed": 36,
+                                "ice_coverage": 35,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 49,
-                                    "move_height": 90,
-                                    "move_distance": 43,
-                                    "move_flow": 56,
-                                    "move_coverage": 63
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 96,
+                                    "move_height": 92,
+                                    "move_distance": 93,
+                                    "move_flow": 8,
+                                    "move_coverage": 47
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 74,
-                                    "move_height": 30,
-                                    "move_distance": 16,
-                                    "move_flow": 86,
-                                    "move_coverage": 90
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 83,
+                                    "move_height": 2,
+                                    "move_distance": 49,
+                                    "move_flow": 49,
+                                    "move_coverage": 94
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 8,
-                                    "move_height": 24,
-                                    "move_distance": 47,
-                                    "move_flow": 75,
-                                    "move_coverage": 24
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 11,
+                                    "move_height": 37,
+                                    "move_distance": 78,
+                                    "move_flow": 88,
+                                    "move_coverage": 87
                                 }
                             ]
                         },
                         {
                             "id": 1,
-                            "guid": "4c951916-6f97-49b2-90d2-0db65f59974c",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "e97d77bc-16c1-4cc5-baff-66807f0a4ee6",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Banks Cash"
+                                "Kirby Pugh"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 10,
-                                "avg_speed": 41,
-                                "max_speed": 47,
-                                "ice_coverage": 77,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 1,
+                                "avg_speed": 13,
+                                "max_speed": 29,
+                                "ice_coverage": 37,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 26,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 32,
                                     "move_height": 87,
-                                    "move_distance": 17,
-                                    "move_flow": 28,
-                                    "move_coverage": 52
+                                    "move_distance": 33,
+                                    "move_flow": 6,
+                                    "move_coverage": 84
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 21,
-                                    "move_height": 18,
-                                    "move_distance": 0,
-                                    "move_flow": 99,
-                                    "move_coverage": 70
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 62,
+                                    "move_height": 54,
+                                    "move_distance": 91,
+                                    "move_flow": 68,
+                                    "move_coverage": 54
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 82,
-                                    "move_height": 19,
-                                    "move_distance": 16,
-                                    "move_flow": 55,
-                                    "move_coverage": 29
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 60,
+                                    "move_height": 22,
+                                    "move_distance": 76,
+                                    "move_flow": 64,
+                                    "move_coverage": 26
                                 }
                             ]
                         },
                         {
                             "id": 2,
-                            "guid": "4bddf1db-faea-43d6-8fa4-a1b1c83e6fe4",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "7744239d-9471-4128-bf9d-91fbceeec43c",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Miles Fischer"
+                                "Rosie Dejesus"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 8,
-                                "avg_speed": 26,
-                                "max_speed": 74,
-                                "ice_coverage": 19,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 1,
+                                "avg_speed": 80,
+                                "max_speed": 41,
+                                "ice_coverage": 57,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 95,
-                                    "move_height": 87,
-                                    "move_distance": 70,
-                                    "move_flow": 85,
-                                    "move_coverage": 82
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 71,
+                                    "move_height": 48,
+                                    "move_distance": 7,
+                                    "move_flow": 14,
+                                    "move_coverage": 23
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 31,
-                                    "move_height": 44,
-                                    "move_distance": 52,
-                                    "move_flow": 94,
-                                    "move_coverage": 46
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 47,
+                                    "move_height": 50,
+                                    "move_distance": 64,
+                                    "move_flow": 27,
+                                    "move_coverage": 91
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 70,
-                                    "move_height": 95,
-                                    "move_distance": 86,
-                                    "move_flow": 85,
-                                    "move_coverage": 77
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 61,
+                                    "move_height": 68,
+                                    "move_distance": 47,
+                                    "move_flow": 54,
+                                    "move_coverage": 1
                                 }
                             ]
                         },
                         {
                             "id": 3,
-                            "guid": "bfa88fb4-2ea8-44d9-a43f-e4693d56de47",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "cc04fd64-7e89-47aa-af4e-cf3b21fcedc3",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Copeland Hammond"
+                                "Lorna Hunter"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 0,
-                                "avg_speed": 83,
-                                "max_speed": 7,
-                                "ice_coverage": 91,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 6,
+                                "avg_speed": 23,
+                                "max_speed": 52,
+                                "ice_coverage": 81,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 56,
-                                    "move_height": 34,
-                                    "move_distance": 84,
-                                    "move_flow": 67,
-                                    "move_coverage": 50
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 90,
+                                    "move_height": 68,
+                                    "move_distance": 15,
+                                    "move_flow": 59,
+                                    "move_coverage": 79
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 41,
-                                    "move_height": 64,
-                                    "move_distance": 11,
-                                    "move_flow": 18,
-                                    "move_coverage": 15
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 63,
+                                    "move_height": 65,
+                                    "move_distance": 1,
+                                    "move_flow": 85,
+                                    "move_coverage": 49
                                 }
                             ]
                         },
                         {
                             "id": 4,
-                            "guid": "be73c975-6ccd-4651-b19d-5b6c1ce94dda",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "a0a4d7b9-dab2-42e1-8e3a-920e51eff859",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Jordan Sharp"
+                                "Beth Mosley"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 9,
-                                "avg_speed": 99,
-                                "max_speed": 16,
-                                "ice_coverage": 86,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 4,
+                                "avg_speed": 12,
+                                "max_speed": 47,
+                                "ice_coverage": 19,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 8,
-                                    "move_height": 75,
-                                    "move_distance": 36,
-                                    "move_flow": 6,
-                                    "move_coverage": 86
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 54,
+                                    "move_height": 39,
+                                    "move_distance": 92,
+                                    "move_flow": 54,
+                                    "move_coverage": 12
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 5,
-                                    "move_height": 80,
-                                    "move_distance": 30,
-                                    "move_flow": 50,
-                                    "move_coverage": 92
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 13,
+                                    "move_height": 93,
+                                    "move_distance": 32,
+                                    "move_flow": 26,
+                                    "move_coverage": 39
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "guid": "a331dc52-8339-47bb-aa4a-1d51723cfadd",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Lowery Gutierrez"
+                            ],
+                            "gender": "female",
+                            "overview": {
+                                "ranking": 6,
+                                "avg_speed": 26,
+                                "max_speed": 95,
+                                "ice_coverage": 58,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 51,
+                                    "move_height": 2,
+                                    "move_distance": 21,
+                                    "move_flow": 85,
+                                    "move_coverage": 36
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 26,
+                                    "move_height": 19,
+                                    "move_distance": 62,
+                                    "move_flow": 79,
+                                    "move_coverage": 32
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "guid": "3aafe3d4-d92b-4c15-afe4-8f8b20bb466f",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Rivas Sanders"
+                            ],
+                            "gender": "female",
+                            "overview": {
+                                "ranking": 2,
+                                "avg_speed": 31,
+                                "max_speed": 51,
+                                "ice_coverage": 81,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 91,
+                                    "move_height": 75,
+                                    "move_distance": 6,
+                                    "move_flow": 48,
+                                    "move_coverage": 99
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 52,
+                                    "move_height": 65,
+                                    "move_distance": 14,
+                                    "move_flow": 69,
+                                    "move_coverage": 46
                                 }
                             ]
                         }
@@ -763,296 +1036,336 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "2267cddb-3a64-48b4-9218-4af55cfd2708",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "75ba97d7-4b08-4a62-a6ab-805b19599765",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Vance Vega"
+                                "Nichols Taylor"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 9,
-                                "avg_speed": 70,
-                                "max_speed": 24,
-                                "ice_coverage": 14,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 4,
+                                "avg_speed": 9,
+                                "max_speed": 3,
+                                "ice_coverage": 43,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 1,
-                                    "move_height": 6,
-                                    "move_distance": 11,
-                                    "move_flow": 59,
-                                    "move_coverage": 4
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 96,
+                                    "move_height": 54,
+                                    "move_distance": 75,
+                                    "move_flow": 100,
+                                    "move_coverage": 72
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 17,
-                                    "move_height": 75,
-                                    "move_distance": 26,
-                                    "move_flow": 33,
-                                    "move_coverage": 56
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 100,
+                                    "move_height": 34,
+                                    "move_distance": 70,
+                                    "move_flow": 46,
+                                    "move_coverage": 61
                                 }
                             ]
                         },
                         {
                             "id": 1,
-                            "guid": "f4451d9c-c080-4148-ac9a-4bfa2130c649",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "aa78ab6e-6a83-451a-8150-986b7643b6a1",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Karla Carey"
+                                "Justice Gray"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 9,
-                                "avg_speed": 89,
-                                "max_speed": 58,
-                                "ice_coverage": 36,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 10,
+                                "avg_speed": 78,
+                                "max_speed": 84,
+                                "ice_coverage": 11,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 26,
-                                    "move_height": 26,
-                                    "move_distance": 72,
-                                    "move_flow": 9,
-                                    "move_coverage": 88
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 99,
+                                    "move_height": 62,
+                                    "move_distance": 57,
+                                    "move_flow": 80,
+                                    "move_coverage": 82
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 70,
-                                    "move_height": 83,
-                                    "move_distance": 13,
-                                    "move_flow": 75,
-                                    "move_coverage": 56
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 85,
+                                    "move_height": 57,
+                                    "move_distance": 19,
+                                    "move_flow": 53,
+                                    "move_coverage": 86
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 42,
-                                    "move_height": 100,
-                                    "move_distance": 81,
-                                    "move_flow": 88,
-                                    "move_coverage": 100
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 6,
+                                    "move_height": 72,
+                                    "move_distance": 1,
+                                    "move_flow": 41,
+                                    "move_coverage": 71
                                 }
                             ]
                         },
                         {
                             "id": 2,
-                            "guid": "49681e47-2380-4f84-872b-834ebbe8dc6d",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "71c2b5d0-b63d-4311-8b87-1ff79f060c47",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Paula Hawkins"
+                                "Henderson Wallace"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 2,
-                                "avg_speed": 47,
-                                "max_speed": 5,
-                                "ice_coverage": 13,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 3,
+                                "avg_speed": 17,
+                                "max_speed": 51,
+                                "ice_coverage": 3,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 98,
-                                    "move_height": 6,
-                                    "move_distance": 3,
-                                    "move_flow": 33,
-                                    "move_coverage": 66
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 30,
+                                    "move_height": 57,
+                                    "move_distance": 51,
+                                    "move_flow": 17,
+                                    "move_coverage": 75
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 17,
-                                    "move_height": 76,
-                                    "move_distance": 48,
-                                    "move_flow": 29,
-                                    "move_coverage": 9
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 97,
+                                    "move_height": 55,
+                                    "move_distance": 23,
+                                    "move_flow": 44,
+                                    "move_coverage": 17
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 6,
-                                    "move_height": 5,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 40,
+                                    "move_height": 13,
                                     "move_distance": 59,
-                                    "move_flow": 37,
-                                    "move_coverage": 46
+                                    "move_flow": 72,
+                                    "move_coverage": 91
                                 }
                             ]
                         },
                         {
                             "id": 3,
-                            "guid": "d19e6aa8-922a-4dec-b289-cb3919413ffb",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "0e16183b-ba4b-4358-8a5e-123c36e37889",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Kelsey Singleton"
+                                "Fleming Santos"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 3,
-                                "avg_speed": 8,
-                                "max_speed": 58,
-                                "ice_coverage": 50,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 6,
+                                "avg_speed": 68,
+                                "max_speed": 75,
+                                "ice_coverage": 8,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 1,
-                                    "move_height": 49,
-                                    "move_distance": 32,
-                                    "move_flow": 49,
-                                    "move_coverage": 85
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 39,
+                                    "move_height": 32,
+                                    "move_distance": 65,
+                                    "move_flow": 15,
+                                    "move_coverage": 84
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 52,
-                                    "move_height": 94,
-                                    "move_distance": 17,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 32,
+                                    "move_height": 98,
+                                    "move_distance": 41,
+                                    "move_flow": 41,
+                                    "move_coverage": 44
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 94,
+                                    "move_height": 85,
+                                    "move_distance": 52,
+                                    "move_flow": 60,
+                                    "move_coverage": 86
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "guid": "a63e3d23-9e5e-4179-b5c1-b351906c3f5b",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Ruby Kirkland"
+                            ],
+                            "gender": "female",
+                            "overview": {
+                                "ranking": 8,
+                                "avg_speed": 81,
+                                "max_speed": 78,
+                                "ice_coverage": 74,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 80,
+                                    "move_height": 85,
+                                    "move_distance": 66,
+                                    "move_flow": 49,
+                                    "move_coverage": 83
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 62,
+                                    "move_height": 49,
+                                    "move_distance": 42,
                                     "move_flow": 62,
+                                    "move_coverage": 21
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "guid": "37d8191b-16b4-44c6-bf20-5a15ece3f46a",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Allie Tyler"
+                            ],
+                            "gender": "female",
+                            "overview": {
+                                "ranking": 5,
+                                "avg_speed": 72,
+                                "max_speed": 29,
+                                "ice_coverage": 81,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 82,
+                                    "move_height": 67,
+                                    "move_distance": 30,
+                                    "move_flow": 2,
+                                    "move_coverage": 8
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "jumps",
+                                    "move_name": "jump",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 84,
+                                    "move_height": 86,
+                                    "move_distance": 35,
+                                    "move_flow": 19,
                                     "move_coverage": 66
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 4,
-                                    "move_height": 58,
-                                    "move_distance": 72,
-                                    "move_flow": 59,
-                                    "move_coverage": 38
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 55,
+                                    "move_height": 76,
+                                    "move_distance": 41,
+                                    "move_flow": 68,
+                                    "move_coverage": 20
                                 }
                             ]
                         },
                         {
-                            "id": 4,
-                            "guid": "0df262ea-be4f-49ba-91d2-8e31e6e5274d",
-                            "picture": "http://placehold.it/32x32",
+                            "id": 6,
+                            "guid": "3ac4c88f-9e11-4606-bb84-a2f8ebd65027",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Carly Mcleod"
+                                "Leah Cortez"
                             ],
                             "gender": "female",
                             "overview": {
-                                "ranking": 2,
-                                "avg_speed": 94,
-                                "max_speed": 7,
-                                "ice_coverage": 83,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 4,
+                                "avg_speed": 28,
+                                "max_speed": 1,
+                                "ice_coverage": 15,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 96,
-                                    "move_height": 25,
-                                    "move_distance": 32,
-                                    "move_flow": 23,
-                                    "move_coverage": 78
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 6,
+                                    "move_height": 55,
+                                    "move_distance": 96,
+                                    "move_flow": 55,
+                                    "move_coverage": 10
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 87,
-                                    "move_height": 70,
-                                    "move_distance": 49,
-                                    "move_flow": 3,
-                                    "move_coverage": 63
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 23,
+                                    "move_height": 43,
+                                    "move_distance": 67,
+                                    "move_flow": 43,
+                                    "move_coverage": 96
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "jumps",
                                     "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 46,
-                                    "move_height": 45,
-                                    "move_distance": 63,
-                                    "move_flow": 92,
-                                    "move_coverage": 59
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "guid": "8065daa5-2527-4c94-a295-172b4e6e16fd",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Melba Gill"
-                            ],
-                            "gender": "female",
-                            "overview": {
-                                "ranking": 2,
-                                "avg_speed": 69,
-                                "max_speed": 86,
-                                "ice_coverage": 98,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 87,
-                                    "move_height": 95,
-                                    "move_distance": 49,
-                                    "move_flow": 91,
-                                    "move_coverage": 37
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 52,
-                                    "move_height": 51,
-                                    "move_distance": 61,
-                                    "move_flow": 98,
-                                    "move_coverage": 85
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "jumps",
-                                    "move_name": "jump",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 11,
-                                    "move_height": 59,
-                                    "move_distance": 72,
-                                    "move_flow": 33,
-                                    "move_coverage": 81
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 17,
+                                    "move_height": 91,
+                                    "move_distance": 29,
+                                    "move_flow": 93,
+                                    "move_coverage": 2
                                 }
                             ]
                         }
@@ -1070,336 +1383,252 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "2402522d-b90a-416e-b8e2-425f43a46b3d",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "535fe032-53c5-46b1-a674-6e23b9fdd3e5",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Jacquelyn Dean",
-                                "Aurelia Cruz"
+                                "Bettie Vaughn",
+                                "Williams Robertson"
                             ],
                             "overview": {
-                                "ranking": 8,
-                                "avg_speed": 56,
-                                "max_speed": 7,
-                                "ice_coverage": 81,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 9,
+                                "avg_speed": 31,
+                                "max_speed": 77,
+                                "ice_coverage": 71,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 20,
-                                    "move_height": 60,
-                                    "move_distance": 69,
-                                    "move_flow": 52,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 100,
+                                    "move_height": 58,
+                                    "move_distance": 92,
+                                    "move_flow": 19,
+                                    "move_coverage": 53
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 94,
+                                    "move_height": 86,
+                                    "move_distance": 59,
+                                    "move_flow": 87,
+                                    "move_coverage": 61
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 14,
+                                    "move_height": 87,
+                                    "move_distance": 47,
+                                    "move_flow": 81,
+                                    "move_coverage": 92
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1,
+                            "guid": "d0ac9d5b-43fb-43eb-9dc0-3e01e4ea922c",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Jeannette Perkins",
+                                "Strickland Guerrero"
+                            ],
+                            "overview": {
+                                "ranking": 8,
+                                "avg_speed": 36,
+                                "max_speed": 41,
+                                "ice_coverage": 27,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 75,
+                                    "move_height": 2,
+                                    "move_distance": 25,
+                                    "move_flow": 4,
+                                    "move_coverage": 6
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 97,
+                                    "move_height": 49,
+                                    "move_distance": 45,
+                                    "move_flow": 25,
+                                    "move_coverage": 30
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "guid": "88f1f94d-c07d-4044-858f-b07d419a488e",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Walsh Gates",
+                                "Velasquez Joyner"
+                            ],
+                            "overview": {
+                                "ranking": 9,
+                                "avg_speed": 16,
+                                "max_speed": 61,
+                                "ice_coverage": 65,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 57,
+                                    "move_height": 21,
+                                    "move_distance": 64,
+                                    "move_flow": 56,
+                                    "move_coverage": 64
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 30,
+                                    "move_height": 25,
+                                    "move_distance": 40,
+                                    "move_flow": 93,
+                                    "move_coverage": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "guid": "3ebc383b-5f3f-42e7-9b67-c74113d09359",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Kris Snyder",
+                                "Kemp Chaney"
+                            ],
+                            "overview": {
+                                "ranking": 7,
+                                "avg_speed": 58,
+                                "max_speed": 22,
+                                "ice_coverage": 66,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 63,
+                                    "move_height": 23,
+                                    "move_distance": 9,
+                                    "move_flow": 97,
+                                    "move_coverage": 91
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 86,
+                                    "move_height": 1,
+                                    "move_distance": 80,
+                                    "move_flow": 12,
+                                    "move_coverage": 73
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "guid": "e4fdf4a3-055e-4fe5-9247-6fa78e4d9a4c",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Finley Hendricks",
+                                "Robertson Castro"
+                            ],
+                            "overview": {
+                                "ranking": 2,
+                                "avg_speed": 27,
+                                "max_speed": 97,
+                                "ice_coverage": 59,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 63,
+                                    "move_height": 3,
+                                    "move_distance": 100,
+                                    "move_flow": 23,
                                     "move_coverage": 94
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 96,
-                                    "move_height": 25,
-                                    "move_distance": 7,
-                                    "move_flow": 81,
-                                    "move_coverage": 75
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
+                                    "move_video_url": "http://placehold.it/600x600",
                                     "move_speed": 62,
-                                    "move_height": 70,
-                                    "move_distance": 20,
-                                    "move_flow": 32,
-                                    "move_coverage": 64
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "guid": "28c709bb-6e1e-4f05-8f57-e9b5aa070971",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Beard Head",
-                                "Lewis Alston"
-                            ],
-                            "overview": {
-                                "ranking": 1,
-                                "avg_speed": 91,
-                                "max_speed": 11,
-                                "ice_coverage": 98,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 27,
-                                    "move_height": 75,
-                                    "move_distance": 91,
-                                    "move_flow": 39,
-                                    "move_coverage": 5
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 19,
-                                    "move_height": 2,
-                                    "move_distance": 68,
-                                    "move_flow": 10,
-                                    "move_coverage": 98
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 92,
-                                    "move_height": 68,
-                                    "move_distance": 47,
-                                    "move_flow": 39,
-                                    "move_coverage": 55
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "guid": "5535372d-5f81-4fdb-be58-94f227a54aa2",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Sheryl Mccoy",
-                                "Kline Beach"
-                            ],
-                            "overview": {
-                                "ranking": 3,
-                                "avg_speed": 37,
-                                "max_speed": 49,
-                                "ice_coverage": 89,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 29,
-                                    "move_height": 69,
-                                    "move_distance": 31,
-                                    "move_flow": 89,
-                                    "move_coverage": 69
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 29,
-                                    "move_height": 86,
-                                    "move_distance": 65,
-                                    "move_flow": 12,
-                                    "move_coverage": 11
-                                }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "guid": "322c42e0-8c2a-4db7-927d-f33afbfb6fca",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Davidson Kim",
-                                "Crawford Roach"
-                            ],
-                            "overview": {
-                                "ranking": 2,
-                                "avg_speed": 4,
-                                "max_speed": 67,
-                                "ice_coverage": 59,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 56,
-                                    "move_height": 25,
-                                    "move_distance": 11,
-                                    "move_flow": 21,
-                                    "move_coverage": 31
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 31,
-                                    "move_height": 67,
-                                    "move_distance": 50,
-                                    "move_flow": 55,
-                                    "move_coverage": 59
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 19,
-                                    "move_height": 94,
-                                    "move_distance": 40,
-                                    "move_flow": 47,
-                                    "move_coverage": 29
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "guid": "ee71bde7-374b-4652-a14f-3489d774046c",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Emily Dickson",
-                                "Roman Guy"
-                            ],
-                            "overview": {
-                                "ranking": 2,
-                                "avg_speed": 42,
-                                "max_speed": 83,
-                                "ice_coverage": 92,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 63,
-                                    "move_height": 37,
-                                    "move_distance": 66,
-                                    "move_flow": 18,
-                                    "move_coverage": 1
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 54,
-                                    "move_height": 10,
-                                    "move_distance": 37,
-                                    "move_flow": 17,
-                                    "move_coverage": 93
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 10,
-                                    "move_height": 1,
-                                    "move_distance": 55,
-                                    "move_flow": 40,
-                                    "move_coverage": 100
+                                    "move_height": 41,
+                                    "move_distance": 87,
+                                    "move_flow": 4,
+                                    "move_coverage": 8
                                 }
                             ]
                         },
                         {
                             "id": 5,
-                            "guid": "964ca696-42f5-4eb7-8a3f-e560a9648f62",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "c60303fa-7f2d-4f2b-b519-605a548f6089",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Cleo Holcomb",
-                                "Walls Rowe"
+                                "Harper Townsend",
+                                "Henry Harper"
                             ],
                             "overview": {
-                                "ranking": 1,
-                                "avg_speed": 26,
-                                "max_speed": 81,
-                                "ice_coverage": 80,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 10,
+                                "avg_speed": 97,
+                                "max_speed": 46,
+                                "ice_coverage": 70,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 71,
-                                    "move_height": 19,
-                                    "move_distance": 48,
-                                    "move_flow": 86,
-                                    "move_coverage": 77
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 43,
+                                    "move_height": 91,
+                                    "move_distance": 38,
+                                    "move_flow": 24,
+                                    "move_coverage": 19
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 89,
-                                    "move_height": 42,
-                                    "move_distance": 20,
-                                    "move_flow": 30,
-                                    "move_coverage": 92
-                                }
-                            ]
-                        },
-                        {
-                            "id": 6,
-                            "guid": "62072416-c089-4654-b49d-ff5742f8ac16",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Maryanne Parks",
-                                "Perry Briggs"
-                            ],
-                            "overview": {
-                                "ranking": 8,
-                                "avg_speed": 80,
-                                "max_speed": 84,
-                                "ice_coverage": 31,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 37,
-                                    "move_height": 1,
-                                    "move_distance": 1,
-                                    "move_flow": 16,
-                                    "move_coverage": 74
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 23,
-                                    "move_height": 79,
-                                    "move_distance": 94,
-                                    "move_flow": 29,
-                                    "move_coverage": 24
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 49,
-                                    "move_height": 97,
-                                    "move_distance": 93,
-                                    "move_flow": 23,
-                                    "move_coverage": 89
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 81,
+                                    "move_height": 71,
+                                    "move_distance": 99,
+                                    "move_flow": 56,
+                                    "move_coverage": 51
                                 }
                             ]
                         }
@@ -1411,234 +1640,212 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "fc68f8c8-d343-47e5-b8be-9c3fdee70594",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "1513a5ad-9c78-499f-a8a1-daefe1d5a78a",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Elva Maddox",
-                                "Haley Hopper"
+                                "Beatrice Jefferson",
+                                "Kate Silva"
                             ],
                             "overview": {
-                                "ranking": 3,
-                                "avg_speed": 67,
-                                "max_speed": 26,
-                                "ice_coverage": 29,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 9,
+                                "avg_speed": 87,
+                                "max_speed": 37,
+                                "ice_coverage": 28,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 93,
-                                    "move_height": 64,
-                                    "move_distance": 95,
-                                    "move_flow": 88,
-                                    "move_coverage": 82
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 22,
+                                    "move_height": 23,
+                                    "move_distance": 79,
+                                    "move_flow": 47,
+                                    "move_coverage": 22
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 23,
-                                    "move_height": 50,
-                                    "move_distance": 68,
-                                    "move_flow": 25,
-                                    "move_coverage": 60
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 15,
+                                    "move_height": 35,
+                                    "move_distance": 70,
+                                    "move_flow": 49,
+                                    "move_coverage": 6
                                 }
                             ]
                         },
                         {
                             "id": 1,
-                            "guid": "b1847133-9f23-4692-8dc8-d8c35f78b018",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "5ba10b12-c5b0-435b-ba6f-bd49f245f443",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Ryan Schmidt",
-                                "Rosemary Figueroa"
+                                "Burt Moreno",
+                                "Castro York"
                             ],
                             "overview": {
-                                "ranking": 5,
-                                "avg_speed": 28,
-                                "max_speed": 62,
-                                "ice_coverage": 36,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 6,
+                                "avg_speed": 92,
+                                "max_speed": 34,
+                                "ice_coverage": 33,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 39,
-                                    "move_height": 67,
-                                    "move_distance": 52,
-                                    "move_flow": 41,
-                                    "move_coverage": 31
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 99,
+                                    "move_height": 77,
+                                    "move_distance": 84,
+                                    "move_flow": 37,
+                                    "move_coverage": 23
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 75,
-                                    "move_height": 75,
-                                    "move_distance": 55,
-                                    "move_flow": 31,
-                                    "move_coverage": 31
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 52,
+                                    "move_height": 85,
+                                    "move_distance": 93,
+                                    "move_flow": 45,
+                                    "move_coverage": 37
                                 }
                             ]
                         },
                         {
                             "id": 2,
-                            "guid": "0d4a1755-a258-46dc-88d4-520d5d4848f9",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "3df8cabb-fbaf-425f-bbc0-e104832cd137",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Ellison Tucker",
-                                "Hancock Mcmahon"
+                                "Schwartz Torres",
+                                "Burgess Rosario"
                             ],
                             "overview": {
-                                "ranking": 0,
-                                "avg_speed": 58,
-                                "max_speed": 26,
-                                "ice_coverage": 86,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 1,
+                                "avg_speed": 43,
+                                "max_speed": 14,
+                                "ice_coverage": 33,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 75,
-                                    "move_height": 88,
-                                    "move_distance": 52,
-                                    "move_flow": 61,
-                                    "move_coverage": 60
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 12,
+                                    "move_height": 20,
+                                    "move_distance": 16,
+                                    "move_flow": 48,
+                                    "move_coverage": 96
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 37,
-                                    "move_height": 80,
-                                    "move_distance": 58,
-                                    "move_flow": 53,
-                                    "move_coverage": 49
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 97,
+                                    "move_height": 20,
+                                    "move_distance": 19,
+                                    "move_flow": 41,
+                                    "move_coverage": 0
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 60,
-                                    "move_height": 47,
-                                    "move_distance": 40,
-                                    "move_flow": 100,
-                                    "move_coverage": 27
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 79,
+                                    "move_height": 20,
+                                    "move_distance": 17,
+                                    "move_flow": 29,
+                                    "move_coverage": 45
                                 }
                             ]
                         },
                         {
                             "id": 3,
-                            "guid": "a7b51737-b507-4621-8d3e-3c51c9a2ba88",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "82ceffb1-e781-416a-9e22-11604986fca4",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Snow Pruitt",
-                                "Carmella Lucas"
+                                "Jordan Ryan",
+                                "Mclaughlin Porter"
                             ],
                             "overview": {
-                                "ranking": 3,
-                                "avg_speed": 29,
-                                "max_speed": 27,
-                                "ice_coverage": 73,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 7,
+                                "avg_speed": 27,
+                                "max_speed": 37,
+                                "ice_coverage": 62,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 20,
-                                    "move_height": 67,
-                                    "move_distance": 72,
-                                    "move_flow": 95,
-                                    "move_coverage": 26
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 83,
+                                    "move_height": 87,
+                                    "move_distance": 6,
+                                    "move_flow": 22,
+                                    "move_coverage": 100
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 28,
-                                    "move_height": 40,
-                                    "move_distance": 39,
-                                    "move_flow": 80,
-                                    "move_coverage": 49
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 69,
-                                    "move_height": 22,
-                                    "move_distance": 38,
-                                    "move_flow": 4,
-                                    "move_coverage": 85
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 4,
+                                    "move_height": 63,
+                                    "move_distance": 94,
+                                    "move_flow": 81,
+                                    "move_coverage": 82
                                 }
                             ]
                         },
                         {
                             "id": 4,
-                            "guid": "73c5e026-be5f-4391-8811-1398c740749a",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "9a1233af-33db-47fe-a3eb-d2e8ccbe2db8",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Flora Shannon",
-                                "Allyson Waller"
+                                "Joyce Thornton",
+                                "Gonzalez Holcomb"
                             ],
                             "overview": {
-                                "ranking": 6,
-                                "avg_speed": 32,
-                                "max_speed": 98,
-                                "ice_coverage": 46,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 1,
+                                "avg_speed": 28,
+                                "max_speed": 41,
+                                "ice_coverage": 84,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 35,
-                                    "move_height": 14,
-                                    "move_distance": 38,
-                                    "move_flow": 19,
-                                    "move_coverage": 25
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 77,
+                                    "move_height": 1,
+                                    "move_distance": 53,
+                                    "move_flow": 51,
+                                    "move_coverage": 64
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 26,
-                                    "move_height": 53,
-                                    "move_distance": 45,
-                                    "move_flow": 13,
-                                    "move_coverage": 11
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 78,
-                                    "move_height": 57,
-                                    "move_distance": 42,
-                                    "move_flow": 44,
-                                    "move_coverage": 49
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 15,
+                                    "move_height": 64,
+                                    "move_distance": 37,
+                                    "move_flow": 52,
+                                    "move_coverage": 35
                                 }
                             ]
                         }
@@ -1656,212 +1863,223 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "af40c762-ec8d-4699-bb0b-be7a60476dc4",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "1cfb922a-b11a-4e1c-a7f6-9f91668ce720",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Marisa Wood",
-                                "Jana Hays"
+                                "Chase Macias",
+                                "Tammy Hammond"
                             ],
                             "overview": {
-                                "ranking": 10,
-                                "avg_speed": 32,
-                                "max_speed": 65,
-                                "ice_coverage": 84,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 4,
+                                "avg_speed": 40,
+                                "max_speed": 83,
+                                "ice_coverage": 46,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 68,
-                                    "move_height": 78,
-                                    "move_distance": 84,
-                                    "move_flow": 30,
-                                    "move_coverage": 27
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 90,
+                                    "move_height": 30,
+                                    "move_distance": 77,
+                                    "move_flow": 71,
+                                    "move_coverage": 16
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 2,
-                                    "move_height": 73,
-                                    "move_distance": 37,
-                                    "move_flow": 15,
-                                    "move_coverage": 4
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 81,
+                                    "move_height": 25,
+                                    "move_distance": 3,
+                                    "move_flow": 82,
+                                    "move_coverage": 13
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 0,
+                                    "move_height": 38,
+                                    "move_distance": 64,
+                                    "move_flow": 52,
+                                    "move_coverage": 41
                                 }
                             ]
                         },
                         {
                             "id": 1,
-                            "guid": "c040e884-8b27-4af7-bd90-0e44d9dcfd39",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "39c49736-0222-4b49-9529-090626aee842",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Doreen Sampson",
-                                "Lindsay Kemp"
+                                "Helene Noel",
+                                "Ora Maxwell"
                             ],
                             "overview": {
-                                "ranking": 9,
-                                "avg_speed": 4,
-                                "max_speed": 2,
-                                "ice_coverage": 18,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 8,
+                                "avg_speed": 24,
+                                "max_speed": 28,
+                                "ice_coverage": 98,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 30,
-                                    "move_height": 19,
-                                    "move_distance": 85,
-                                    "move_flow": 21,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 81,
+                                    "move_height": 8,
+                                    "move_distance": 64,
+                                    "move_flow": 44,
+                                    "move_coverage": 2
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 38,
+                                    "move_height": 42,
+                                    "move_distance": 56,
+                                    "move_flow": 19,
+                                    "move_coverage": 25
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "guid": "a5a06463-6253-4d81-8bd4-fa5b905cd82f",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Selma Cox",
+                                "Pugh Adams"
+                            ],
+                            "overview": {
+                                "ranking": 2,
+                                "avg_speed": 64,
+                                "max_speed": 14,
+                                "ice_coverage": 100,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 94,
+                                    "move_height": 43,
+                                    "move_distance": 31,
+                                    "move_flow": 68,
+                                    "move_coverage": 35
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 56,
+                                    "move_height": 85,
+                                    "move_distance": 22,
+                                    "move_flow": 38,
+                                    "move_coverage": 53
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "guid": "6a5dd358-1304-4f77-8723-a5e59f8be819",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Rowena Lee",
+                                "Rush Riley"
+                            ],
+                            "overview": {
+                                "ranking": 2,
+                                "avg_speed": 20,
+                                "max_speed": 41,
+                                "ice_coverage": 24,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 26,
+                                    "move_height": 72,
+                                    "move_distance": 40,
+                                    "move_flow": 54,
+                                    "move_coverage": 73
+                                },
+                                {
+                                    "move_id": 1,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 76,
+                                    "move_height": 30,
+                                    "move_distance": 55,
+                                    "move_flow": 41,
+                                    "move_coverage": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "guid": "8a129e42-236a-4217-ae7d-f57a3e9e5f2c",
+                            "picture": "http://placehold.it/100x100",
+                            "names": [
+                                "Mcintosh Wong",
+                                "Katina Schneider"
+                            ],
+                            "overview": {
+                                "ranking": 2,
+                                "avg_speed": 63,
+                                "max_speed": 91,
+                                "ice_coverage": 75,
+                                "video_url": "http://placehold.it/600x600"
+                            },
+                            "moves": [
+                                {
+                                    "move_id": 0,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 4,
+                                    "move_height": 36,
+                                    "move_distance": 45,
+                                    "move_flow": 42,
                                     "move_coverage": 67
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 35,
-                                    "move_height": 96,
-                                    "move_distance": 25,
-                                    "move_flow": 35,
-                                    "move_coverage": 0
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 6,
+                                    "move_height": 95,
+                                    "move_distance": 8,
+                                    "move_flow": 8,
+                                    "move_coverage": 70
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 45,
-                                    "move_height": 46,
-                                    "move_distance": 70,
-                                    "move_flow": 69,
-                                    "move_coverage": 41
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "guid": "5431dfbb-cce5-479a-91d3-1da53b0a9dbc",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Rice Lester",
-                                "Desiree Zimmerman"
-                            ],
-                            "overview": {
-                                "ranking": 9,
-                                "avg_speed": 57,
-                                "max_speed": 3,
-                                "ice_coverage": 58,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 73,
-                                    "move_height": 18,
-                                    "move_distance": 96,
-                                    "move_flow": 13,
-                                    "move_coverage": 92
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 2,
-                                    "move_height": 71,
-                                    "move_distance": 19,
-                                    "move_flow": 70,
-                                    "move_coverage": 97
-                                }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "guid": "f4837bc1-ec86-46d4-9a91-4e3d461295e6",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Mariana Mitchell",
-                                "Hutchinson Dunlap"
-                            ],
-                            "overview": {
-                                "ranking": 4,
-                                "avg_speed": 69,
-                                "max_speed": 12,
-                                "ice_coverage": 3,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 73,
-                                    "move_height": 24,
-                                    "move_distance": 64,
-                                    "move_flow": 76,
-                                    "move_coverage": 88
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 63,
-                                    "move_height": 53,
-                                    "move_distance": 5,
-                                    "move_flow": 60,
-                                    "move_coverage": 8
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "guid": "21defdd4-b4c6-4f1b-a152-e7e3e1b792ee",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Mitchell Bass",
-                                "Juanita Welch"
-                            ],
-                            "overview": {
-                                "ranking": 3,
-                                "avg_speed": 94,
-                                "max_speed": 30,
-                                "ice_coverage": 30,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 79,
-                                    "move_height": 64,
-                                    "move_distance": 65,
-                                    "move_flow": 57,
-                                    "move_coverage": 45
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 58,
-                                    "move_height": 7,
-                                    "move_distance": 39,
-                                    "move_flow": 37,
-                                    "move_coverage": 81
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 22,
+                                    "move_height": 3,
+                                    "move_distance": 27,
+                                    "move_flow": 26,
+                                    "move_coverage": 17
                                 }
                             ]
                         }
@@ -1873,325 +2091,234 @@
                     "competitors": [
                         {
                             "id": 0,
-                            "guid": "33a7bd0a-c82f-4414-a01f-b9988bf7420f",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "cda85708-e082-4a5b-a868-39e0a238365e",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Dona Cotton",
-                                "Greene Charles"
+                                "Susan Mayer",
+                                "Geraldine Bartlett"
                             ],
                             "overview": {
                                 "ranking": 2,
-                                "avg_speed": 93,
-                                "max_speed": 22,
-                                "ice_coverage": 57,
-                                "video_url": "http://placehold.it/300x300"
+                                "avg_speed": 77,
+                                "max_speed": 8,
+                                "ice_coverage": 70,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 77,
-                                    "move_height": 10,
-                                    "move_distance": 43,
-                                    "move_flow": 58,
-                                    "move_coverage": 92
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 21,
+                                    "move_height": 45,
+                                    "move_distance": 98,
+                                    "move_flow": 71,
+                                    "move_coverage": 18
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 8,
-                                    "move_height": 47,
-                                    "move_distance": 62,
-                                    "move_flow": 26,
-                                    "move_coverage": 22
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 98,
+                                    "move_height": 81,
+                                    "move_distance": 9,
+                                    "move_flow": 10,
+                                    "move_coverage": 5
                                 }
                             ]
                         },
                         {
                             "id": 1,
-                            "guid": "2ac9e622-b0b1-4e6b-b7d4-2451e1c40628",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "0eb4db93-6f14-4bc1-aef9-4ad2639f7d98",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Horton Walls",
-                                "England Frye"
+                                "Keith Ball",
+                                "Reyes Shaffer"
                             ],
                             "overview": {
-                                "ranking": 1,
-                                "avg_speed": 19,
-                                "max_speed": 6,
-                                "ice_coverage": 20,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 9,
+                                "avg_speed": 42,
+                                "max_speed": 69,
+                                "ice_coverage": 30,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 88,
-                                    "move_height": 70,
-                                    "move_distance": 56,
-                                    "move_flow": 29,
-                                    "move_coverage": 79
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 34,
+                                    "move_height": 33,
+                                    "move_distance": 58,
+                                    "move_flow": 87,
+                                    "move_coverage": 44
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 72,
-                                    "move_height": 62,
-                                    "move_distance": 25,
-                                    "move_flow": 22,
-                                    "move_coverage": 19
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 30,
+                                    "move_height": 72,
+                                    "move_distance": 0,
+                                    "move_flow": 90,
+                                    "move_coverage": 72
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 65,
+                                    "move_height": 47,
+                                    "move_distance": 72,
+                                    "move_flow": 2,
+                                    "move_coverage": 74
                                 }
                             ]
                         },
                         {
                             "id": 2,
-                            "guid": "76c97bb3-e185-4969-a68f-9e7d52647590",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "dbd95f1c-44d5-4cf7-a8b8-993c496d75e0",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Poole Gates",
-                                "Le Hogan"
+                                "Nancy Paul",
+                                "Baxter Ellis"
                             ],
                             "overview": {
-                                "ranking": 10,
-                                "avg_speed": 55,
-                                "max_speed": 79,
-                                "ice_coverage": 88,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 5,
+                                "avg_speed": 43,
+                                "max_speed": 50,
+                                "ice_coverage": 12,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 41,
-                                    "move_height": 3,
-                                    "move_distance": 82,
-                                    "move_flow": 20,
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 34,
+                                    "move_height": 67,
+                                    "move_distance": 7,
+                                    "move_flow": 42,
                                     "move_coverage": 37
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 25,
-                                    "move_height": 90,
-                                    "move_distance": 92,
-                                    "move_flow": 59,
-                                    "move_coverage": 76
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 77,
+                                    "move_height": 49,
+                                    "move_distance": 83,
+                                    "move_flow": 35,
+                                    "move_coverage": 80
                                 },
                                 {
                                     "move_id": 2,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 19,
-                                    "move_height": 76,
-                                    "move_distance": 77,
-                                    "move_flow": 80,
-                                    "move_coverage": 12
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 77,
+                                    "move_height": 42,
+                                    "move_distance": 9,
+                                    "move_flow": 94,
+                                    "move_coverage": 39
                                 }
                             ]
                         },
                         {
                             "id": 3,
-                            "guid": "7db846ca-96f0-4b33-929d-601ff771f58e",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "4ca831f6-deee-4554-b285-d797d6786e1a",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Carey Peck",
-                                "Jessie Rose"
+                                "Spencer Hebert",
+                                "Leigh Beasley"
                             ],
                             "overview": {
-                                "ranking": 10,
-                                "avg_speed": 87,
-                                "max_speed": 10,
-                                "ice_coverage": 83,
-                                "video_url": "http://placehold.it/300x300"
+                                "ranking": 7,
+                                "avg_speed": 6,
+                                "max_speed": 87,
+                                "ice_coverage": 77,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 15,
-                                    "move_height": 38,
-                                    "move_distance": 48,
-                                    "move_flow": 66,
-                                    "move_coverage": 64
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 35,
+                                    "move_height": 45,
+                                    "move_distance": 18,
+                                    "move_flow": 63,
+                                    "move_coverage": 58
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 5,
-                                    "move_height": 79,
-                                    "move_distance": 38,
-                                    "move_flow": 73,
-                                    "move_coverage": 91
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 20,
+                                    "move_height": 28,
+                                    "move_distance": 59,
+                                    "move_flow": 98,
+                                    "move_coverage": 66
+                                },
+                                {
+                                    "move_id": 2,
+                                    "move_category": "lifts",
+                                    "move_name": "lift",
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 26,
+                                    "move_height": 1,
+                                    "move_distance": 24,
+                                    "move_flow": 99,
+                                    "move_coverage": 76
                                 }
                             ]
                         },
                         {
                             "id": 4,
-                            "guid": "14ce79f7-ceaf-43e0-9b83-251b542ebb2e",
-                            "picture": "http://placehold.it/32x32",
+                            "guid": "40b31fb7-0119-45ff-879f-30e0ab5a4d83",
+                            "picture": "http://placehold.it/100x100",
                             "names": [
-                                "Strickland Frazier",
-                                "Melendez Bradley"
-                            ],
-                            "overview": {
-                                "ranking": 9,
-                                "avg_speed": 48,
-                                "max_speed": 6,
-                                "ice_coverage": 39,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 55,
-                                    "move_height": 19,
-                                    "move_distance": 52,
-                                    "move_flow": 66,
-                                    "move_coverage": 86
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 24,
-                                    "move_height": 27,
-                                    "move_distance": 18,
-                                    "move_flow": 2,
-                                    "move_coverage": 74
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 6,
-                                    "move_height": 26,
-                                    "move_distance": 19,
-                                    "move_flow": 60,
-                                    "move_coverage": 57
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "guid": "a771a5cc-1412-4aea-a1ac-46c0e2825050",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Jane Robertson",
-                                "Melva Porter"
+                                "Morales Morse",
+                                "Norris Brennan"
                             ],
                             "overview": {
                                 "ranking": 4,
-                                "avg_speed": 61,
-                                "max_speed": 22,
-                                "ice_coverage": 6,
-                                "video_url": "http://placehold.it/300x300"
+                                "avg_speed": 38,
+                                "max_speed": 47,
+                                "ice_coverage": 73,
+                                "video_url": "http://placehold.it/600x600"
                             },
                             "moves": [
                                 {
                                     "move_id": 0,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 32,
-                                    "move_height": 57,
-                                    "move_distance": 78,
-                                    "move_flow": 8,
-                                    "move_coverage": 40
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 56,
+                                    "move_height": 18,
+                                    "move_distance": 8,
+                                    "move_flow": 54,
+                                    "move_coverage": 2
                                 },
                                 {
                                     "move_id": 1,
                                     "move_category": "lifts",
                                     "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 98,
-                                    "move_height": 95,
-                                    "move_distance": 5,
-                                    "move_flow": 100,
-                                    "move_coverage": 62
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 63,
-                                    "move_height": 55,
-                                    "move_distance": 86,
-                                    "move_flow": 56,
-                                    "move_coverage": 1
-                                }
-                            ]
-                        },
-                        {
-                            "id": 6,
-                            "guid": "87573b21-65a5-4d61-b883-4412c8b276bf",
-                            "picture": "http://placehold.it/32x32",
-                            "names": [
-                                "Jeanie Foley",
-                                "Sadie Barlow"
-                            ],
-                            "overview": {
-                                "ranking": 10,
-                                "avg_speed": 2,
-                                "max_speed": 24,
-                                "ice_coverage": 14,
-                                "video_url": "http://placehold.it/300x300"
-                            },
-                            "moves": [
-                                {
-                                    "move_id": 0,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 41,
-                                    "move_height": 46,
-                                    "move_distance": 96,
-                                    "move_flow": 98,
-                                    "move_coverage": 59
-                                },
-                                {
-                                    "move_id": 1,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 6,
-                                    "move_height": 53,
-                                    "move_distance": 88,
-                                    "move_flow": 2,
-                                    "move_coverage": 65
-                                },
-                                {
-                                    "move_id": 2,
-                                    "move_category": "lifts",
-                                    "move_name": "lift",
-                                    "move_video_url": "http://placehold.it/300x300",
-                                    "move_speed": 52,
-                                    "move_height": 92,
-                                    "move_distance": 68,
-                                    "move_flow": 7,
-                                    "move_coverage": 65
+                                    "move_video_url": "http://placehold.it/600x600",
+                                    "move_speed": 22,
+                                    "move_height": 38,
+                                    "move_distance": 3,
+                                    "move_flow": 66,
+                                    "move_coverage": 61
                                 }
                             ]
                         }
