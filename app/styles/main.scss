@@ -16,6 +16,77 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     }
 }
 
+#section-event {
+    background: black;
+    height: 300px;
+
+    div {
+        background: url(../images/bg-event.jpg) no-repeat top center fixed;
+        display: block;
+        height: 300px;
+
+        h1, h2 {
+            display: none;
+        }
+    }
+}
+
+#main-nav {
+    .skater-profile {
+        img {
+            display: block;
+            height: 34px;
+            margin: 8px 10px 8px 0;
+            width: 34px;
+        }
+        h4 {
+            margin: 8px 0;
+        }
+    }
+}
+
+#section-footer {
+    p {
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+    }
+}
+
+.video-temp {
+    display: block;
+    height: 422px;
+    width: 750px;
+}
+
+#section-competitions {
+    background: white;
+    margin: 20px 0;
+    padding: 0px;
+
+    h3 {
+        display: block;
+        text-align: center;
+    }
+
+    .btn-group {
+        .btn {
+            border-top: none;
+            border-bottom: none;
+            border-right: none;
+            border-radius: 0;
+            &:first-child {
+                border-left: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
@@ -260,25 +331,25 @@ hr {
     }
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
+// /* Responsive: Portrait tablets and up */
+// @media screen and (min-width: 768px) {
+//     .container {
+//         max-width: 730px;
+//     }
 
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
-}
+//     /* Remove the padding we set earlier */
+//     .header,
+//     .marketing,
+//     .footer {
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+//     /* Space out the masthead */
+//     .header {
+//         margin-bottom: 30px;
+//     }
+//     /* Remove the bottom border on the jumbotron for visual effect */
+//     .jumbotron {
+//         border-bottom: 0;
+//     }
+// }
