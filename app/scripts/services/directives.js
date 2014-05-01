@@ -3,6 +3,17 @@
 
     var app = angular.module('veriskateWebApp');
 
+    //app.directive('ccOverviewParser', ['datacontext', function (datacontext) {
+    //    var directive = {
+    //        link: link,
+    //        restrict: 'A'
+    //    };
+    //    return directive;
+
+    //    function link(scope, elem, attrs) {
+    //    };
+    //}]);
+
     //app.directive('ccImgPerson', ['config', function (config) {
     //    //Usage:
     //    //<img data-cc-img-person="{{s.speaker.imageSource}}"/>

@@ -12,6 +12,7 @@
         var curProgram = 0;
         var curCompetitor = null;
         var curMove = null;
+        var maxNumListViewStats = 4;
 
         var service = {
             getCompetitionData: getCompetitionData,
@@ -20,7 +21,8 @@
             curEvent :curEvent,
             curProgram :curProgram,
             curCompetitor: curCompetitor,
-            curMove: curMove
+            curMove: curMove,
+            maxNumListViewStats: maxNumListViewStats
         };
 
         return service;

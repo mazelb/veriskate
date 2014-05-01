@@ -3,20 +3,6 @@
     var controllerId = 'leaderboardCtrl';
     angular.module('veriskateWebApp').controller(controllerId, ['$location', 'datacontext', leaderboardCtrl]);
 
-    //TODO: Update code to dynamically take the JSON parameters: 
-    //right now the following elements are manually (or semi-manually set) : 
-    //  -vm.competitors.Overview -> in the HTML, because overview is an object, not a table, 
-    //                              the ng-repeat won't work on it. Change it to dynamic table.
-    // maybe use the following to get the keys in an array : 
-    //var getKeys = function (obj) {
-    //    var keys = [];
-    //    for(var key in obj){
-    //        keys.push(key);
-    //    }
-    //    return keys;
-    //}
-
-
     function leaderboardCtrl($location, datacontext) {
         var vm = this;
 
@@ -25,6 +11,8 @@
         vm.curCat = 0; //Current stats category (temp disabled)
         vm.sortingpredicate = 'overview.ranking'; //The sorting predicate for the competitors list
         vm.reverseSort = false; //list oredering: false = ascending, true = descending
+        vm.maxNumListViewStats = datacontext.maxNumListViewStats;
+
         
         //Get the list of competitors from the datacontext service
         if(datacontext.CompetitionData && datacontext.CompetitionData.events.length > 0) {
@@ -39,6 +27,17 @@
                     vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
                 }
             }
+        }
+
+        //return the value of the overview stats for a specific competitor
+        vm.parseOverviewStats = function (vStatId, vCompetitor) {
+            var result = 'N/A';
+
+            if (vCompetitor.overview.hasOwnProperty(vStatId)) {
+                result = vCompetitor.overview[vStatId];
+            }
+
+            return result;
         }
 
         //Change the viewed stats (temp disabled)

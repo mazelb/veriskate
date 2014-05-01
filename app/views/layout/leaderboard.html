@@ -48,8 +48,7 @@
                 <li class="col-xs-4" ng-click="vm.changeSortingPredicate('names', 0)">
                     <center ng-class="{'bold':vm.isCurSortingPredicate('names')}">Competitor(s)<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span></center>
                 </li>
-                <!--<li class="col-xs-2" ng-repeat="evCatStat in vm.categories[vm.curCat].stats_tracked">{{evCatStat.stat_name}}</li>-->
-                <li class="col-xs-2" ng-repeat="evCatStat in vm.OverviewStats.stats_tracked" ng-click="vm.changeSortingPredicate(evCatStat.stat_id)">
+                <li class="col-xs-2" ng-repeat="evCatStat in vm.OverviewStats.stats_tracked  | limitTo:vm.maxNumListViewStats" ng-click="vm.changeSortingPredicate(evCatStat.stat_id)">
                     <center ng-class="{'bold':vm.isCurSortingPredicate(evCatStat.stat_id)}">{{evCatStat.stat_name}}<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span></center>
                 </li>
             </ul>
@@ -63,17 +62,8 @@
                         </div>
                     </div>
                     <ul class="list">
-                        <li class="col-xs-2">
-                            <center>{{evCompetitor.overview.ranking}}</center>
-                        </li>
-                        <li class="col-xs-2">
-                            <center>{{evCompetitor.overview.avg_speed}}</center>
-                        </li>
-                        <li class="col-xs-2">
-                            <center>{{evCompetitor.overview.max_speed}}</center>
-                        </li>
-                        <li class="col-xs-2">
-                            <center>{{evCompetitor.overview.ice_coverage}}</center>
+                        <li class="col-xs-2" ng-repeat="evOverviewStat in vm.OverviewStats.stats_tracked | limitTo:vm.maxNumListViewStats">
+                            <center>{{vm.parseOverviewStats(evOverviewStat.stat_id, evCompetitor)}}</center>
                         </li>
                     </ul>
                 </li>

@@ -51,7 +51,30 @@
         <!-- SIDEBAR-->
         <div class="col-md-4">
             <ul class="list">
-                <li>
+                <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.competitorSelected(evCompetitor)">
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <img class="col-xs-3" ng-src="{{evCompetitor.picture}}" />
+                            <center class="col-xs-6" ng-repeat="evName in evCompetitor.names">{{evName}}</center>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="col-xs-2" ng-repeat="evOverviewStat in vm.OverviewStats.stats_tracked | limitTo:vm.maxNumListViewStats">
+                            <center>{{vm.parseOverviewStats(evOverviewStat.stat_id, evCompetitor)}}</center>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li ng-repeat="evOverviewStat in vm.OverviewStats.stats_tracked | limitTo:vm.maxNumListViewStats">
+                    <center>
+                        <h3>{{evOverviewStat.stat_name}}</h3>
+                        <h3>{{vm.getStatValue(evOverviewStat.stat_id)}}</h3>
+                    </center>
+                </li>
+
+                <!--<li>
                     <center>
                         <h3>Ranking</h3>
                         <h3>{{vm.competitor.overview.ranking}}</h3>
@@ -74,7 +97,7 @@
                         <h3>Ice Coverage</h3>
                         <h3>{{vm.competitor.overview.ice_coverage}}</h3>
                     </center>
-                </li>
+                </li>-->
             </ul>
         </div>
         <!-- end SIDEBAR  -->
