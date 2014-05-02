@@ -46,9 +46,12 @@
 
             <center><img class="video-temp" ng-src="{{vm.move.move_video_url}}"></center>
             <div class="row">
-                <div class="col-xs-4" style="border-style:solid; border-width:1px;"><center><h3>Stat 1</h3></center></div>
-                <div class="col-xs-4" style="border-style:solid; border-width:1px;"><center><h3>Stat 2</h3></center></div>
-                <div class="col-xs-4" style="border-style:solid; border-width:1px;"><center><h3>Stat 3</h3></center></div>
+                <div class="col-xs-4" style="border-style:solid; border-width:1px;" ng-repeat="evMoveStat in vm.moveStats.stats_tracked | limitTo:vm.maxNumViewStats">
+                    <center>
+                        <h3>{{evMoveStat.stat_name}}</h3>
+                        <h3>{{vm.getStatValue(evMoveStat.stat_id)}}</h3>
+                    </center>
+                </div>
             </div>
         </div>
         <!-- end VIDEO CONTENT  -->
@@ -56,16 +59,10 @@
         <div class="col-md-4">
             <h2>{{vm.move.move_name + vm.move.move_id}}</h2>
 
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs nav-justified" style="padding-top: 10px;">
-                <li class="active"><a href="" data-toggle="tab">Stat 1</a></li>
-                <li><a href="" data-toggle="tab">Stat 2</a></li>
-                <li><a href="" data-toggle="tab">Stat 3</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane active" id="Stat1">
+            <!-- sidebar tabs -->
+            <tabset justified="true">
+                <tab ng-repeat="evMoveStat in vm.moveStats.stats_tracked | limitTo:vm.maxNumViewStats" heading="{{evMoveStat.stat_name}}" style="cursor: pointer;">
+                    Justified content {{vm.getStatValue(evMoveStat.stat_id)}}
                     <ul class="list">
                         <li ng-repeat="evCompetitor in vm.competitors | limitTo:5">
                             <div class="row">
@@ -79,41 +76,8 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-                
-                <div class="tab-pane" id="Stat2">
-                    <ul class="list">
-                        <li ng-repeat="evCompetitor in vm.competitors | limitTo:5">
-                            <div class="row">
-                                <img class="col-xs-4" ng-src="{{evCompetitor.picture}}" height="50" width="50">
-                                <div class="col-xs-8">
-                                    <center>
-                                        <h2 ng-repeat="evName in evCompetitor.names">{{evName}}</h2>
-                                        <h3>STATS GO HERE</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="tab-pane" id="Stat3">
-                    <ul class="list">
-                        <li ng-repeat="evCompetitor in vm.competitors | limitTo:5">
-                            <div class="row">
-                                <img class="col-xs-4" ng-src="{{evCompetitor.picture}}" height="50" width="50">
-                                <div class="col-xs-8">
-                                    <center>
-                                        <h2 ng-repeat="evName in evCompetitor.names">{{evName}}</h2>
-                                        <h3>STATS GO HERE</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
+                </tab>
+            </tabset>
         </div>
         <!-- end SIDEBAR  -->
 
