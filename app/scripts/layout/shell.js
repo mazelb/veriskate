@@ -1,4 +1,34 @@
-﻿//(function () {
+﻿$(document).ready(function(){
+
+	//get navbar height
+	var navbarHeight;
+	
+	//controlls nav bar locking to top
+	$(window).scroll(function () { 
+		navbarHeight = $('.navbar').height();
+		if($(window).scrollTop() >= 300){
+			$('#main-nav').css({
+				position 	: 	'fixed',
+				top 		: 	'0',
+				width		: 	'100%',
+				zIndex		: 	'9'
+			});
+
+			$('#section-filterlist').css('padding-top', navbarHeight+'px');
+		} else {
+			$('#main-nav').css({
+				position 	: 	'static',
+				top 		: 	'auto',
+				width		: 	'auto',
+				zIndex		: 	'auto'
+			});
+
+			$('#section-filterlist').css('padding-top', '0px');
+		}
+
+	});
+});
+//(function () {
 //    'use strict';
 
 //    var controllerId = 'shell';

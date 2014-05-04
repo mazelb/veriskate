@@ -331,10 +331,14 @@ hr {
     }
 }
 
+.container {
+    width: 1170px !important;
+}
+
 // /* Responsive: Portrait tablets and up */
-// @media screen and (min-width: 768px) {
+// @media screen and (min-width: 1px) {
 //     .container {
-//         max-width: 730px;
+//         max-width: 1170px !important;
 //     }
 
 //     /* Remove the padding we set earlier */
