@@ -71,7 +71,7 @@
             </ul>
 
             <ul class="list">
-                <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.competitorSelected(evCompetitor)">
+                <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.gotoCompetitor(evCompetitor)">
                     <div class="col-lg-4 cell">
                         <div>
                             <div class="skater-image pull-left"><img ng-src="{{evCompetitor.picture}}" /></div>
@@ -81,7 +81,7 @@
                     <div class="col-lg-2 cell" ng-repeat="evOverviewStat in vm.OverviewStats.stats_tracked | limitTo:vm.maxNumListViewStats">
                         {{vm.parseOverviewStats(evOverviewStat.stat_id, evCompetitor)}}
                     </div>
-                    </ul>
+</ul>
                 </li>
             </ul>
         </div>

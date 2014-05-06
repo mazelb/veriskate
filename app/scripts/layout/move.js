@@ -3,8 +3,6 @@
     var controllerId = 'moveCtrl';
     angular.module('veriskateWebApp').controller(controllerId, ['$location', 'datacontext', moveCtrl]);
 
-    //TODO: sidebar tabs the content need to be ordered correctly according to the current stat tracked and filtered by the top 5
-
     //TODO: Connect the search bar in specific move to the sidebar content
 
     //TODO: mobile responsiveness
@@ -39,7 +37,7 @@
 
             for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
                 if (datacontext.CompetitionData.stats_cat[i].cat_id === vm.move.move_category) {
-                    vm.moveStats = datacontext.CompetitionData.stats_cat[i];
+                    vm.moveCategory = datacontext.CompetitionData.stats_cat[i];
                 }
             }
 
@@ -88,6 +86,10 @@
                 result = 'move.' + vStatId;
             }
             vm.orderPredicate = result;
+        }
+
+        vm.changeMoveType = function (vMoveType) {
+            //switch to a different move type in the sidebar
         }
 
         vm.gotoOverview = function () {

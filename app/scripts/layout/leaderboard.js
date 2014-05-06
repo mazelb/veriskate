@@ -109,7 +109,7 @@
         }
 
         //When a competitor is selected, switch to details view of competitor
-        vm.competitorSelected = function (vCompetitor) {
+        vm.gotoCompetitor = function (vCompetitor) {
             datacontext.curCompetitor = vCompetitor;
             $location.path('/competitor/');
         }

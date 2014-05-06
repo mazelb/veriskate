@@ -27,7 +27,9 @@
                     <li>
                 </ul>
                 </div>
-<!--                 <div class="col-lg-6">
+
+                <!--                 
+                <div class="col-lg-6">
                     <form class="navbar-form" role="search">
                         <div class="form-group">
                             <input type="text" class="form-control search" placeholder="Quick Search Skater" ng-model="search.name">
@@ -46,7 +48,7 @@
         <div class="col-lg-8">
             <img class="video-temp" ng-src="{{vm.competitor.overview.video_url}}">
 
-            <div style="border-style:solid; border-width:1px;" ng-repeat="evMoveStat in vm.moveStats.stats_tracked | limitTo:vm.maxNumViewStats">
+            <div style="border-style:solid; border-width:1px;" ng-repeat="evMoveStat in vm.moveCategory.stats_tracked | limitTo:vm.maxNumViewStats">
                 <center>
                     <h3>{{evMoveStat.stat_name}}</h3>
                     <h3>{{vm.getStatValue(evMoveStat.stat_id)}}</h3>
@@ -68,7 +70,7 @@
 
             <center><img class="video-temp" ng-src="{{vm.move.move_video_url}}"></center>
             <div class="row">
-                <div class="col-xs-4" style="border-style:solid; border-width:1px;" ng-repeat="evMoveStat in vm.moveStats.stats_tracked | limitTo:vm.maxNumViewStats">
+                <div class="col-xs-4" style="border-style:solid; border-width:1px;" ng-repeat="evMoveStat in vm.moveCategory.stats_tracked | limitTo:vm.maxNumViewStats">
                     <center>
                         <h3>{{evMoveStat.stat_name}}</h3>
                         <h3>{{vm.getStatValue(evMoveStat.stat_id)}}</h3>
@@ -77,6 +79,7 @@
             </div>
         </div>
         end VIDEO CONTENT  -->
+
         <!-- SIDEBAR-->
         <div class="col-md-4 sidebar">
             <ul class="list-header">
@@ -86,18 +89,16 @@
             <div class="dropdown dropdown-justified">
                 <a class="btn-block btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Filter {{vm.move.move_category}} type <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li role="presentation"><a role="menuitem" tabindex="0" ng-click="vm.gotoOverview()">Overview</a></li>
-                    <li role="presentation" class="divider"></li>
-                    <li role="presentation" ng-repeat="evMove in vm.moves"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.gotoMove(evMove)">{{evMove.move_name + ' ' + evMove.move_id}}</a></li>
+                    <li role="presentation" ng-repeat="evMoveType in vm.moveCategory.cat_types"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.changeMoveType(evMoveType)">{{evMoveType}}</a></li>
                 </ul>
             </div>
 
             <!-- sidebar tabs -->
             <tabset justified="true">
-                <tab ng-repeat="evMoveStat in vm.moveStats.stats_tracked | limitTo:vm.maxNumViewStats" heading="{{evMoveStat.stat_name}}" select="vm.changePredicate(evMoveStat.stat_id)" style="cursor: pointer;">
+                <tab ng-repeat="evMoveStat in vm.moveCategory.stats_tracked | limitTo:vm.maxNumViewStats" heading="{{evMoveStat.stat_name}}" select="vm.changePredicate(evMoveStat.stat_id)" style="cursor: pointer;">
 
                     <ul class="list">
-                        <li ng-repeat="evMove in vm.movesByCategory | orderBy:vm.orderPredicate | limitTo:5 " ng-click="vm.gotoCompetitorOverview(evMove.competitor_id)">
+                        <li ng-repeat="evMove in vm.movesByCategory | orderBy:vm.orderPredicate | limitTo:5 " ng-click="vm.gotoCompetitorOverview(evMove.competitor_id)" style="cursor: pointer;">
                             <div class="row">
                                 <img class="col-xs-4" ng-src="{{vm.getCompetitorPicture(evMove.competitor_id)}}" height="50" width="50">
                                 <div class="col-xs-8">
