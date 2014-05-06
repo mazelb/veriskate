@@ -14,6 +14,21 @@
 
         vm.title = 'Competitor Move Details';
         vm.maxNumViewStats = datacontext.maxNumListViewStats;
+        vm.orderPredicate = '';
+
+        var getMovesByCategory = function () {
+            //flatten moves into a single array
+            vm.movesByCategory = [];
+            for (var j = 0 ; j < vm.competitors.length; j++) {
+                for (var k = 0; k < vm.competitors[j].moves.length; k++) {
+                    //all moves by same category 
+                    if (vm.move.move_category === vm.competitors[j].moves[k].move_category) {
+                        var vMove = { 'move': vm.competitors[j].moves[k], 'competitor_id': j };
+                        vm.movesByCategory.push(vMove);
+                    }
+                }
+            }
+        }
 
         //Get the current competitor from the datacontext service
         if (datacontext.CompetitionData && datacontext.curMove && datacontext.CompetitionData.events.length > 0) {
@@ -27,7 +42,10 @@
                     vm.moveStats = datacontext.CompetitionData.stats_cat[i];
                 }
             }
+
+            getMovesByCategory();
         }
+
 
         //return the value of the overview stats for a specific competitor
         vm.getStatValue = function (vStatId) {
@@ -40,6 +58,38 @@
             return result;
         }
 
+        vm.getMoveStatValue = function (vMove, vMoveStatId) {
+            var result = 'N/A';
+            //console.log(vMove);
+            //console.log(vMoveStatId);
+            if (vMove.hasOwnProperty(vMoveStatId)) {
+                result = vMove[vMoveStatId];
+            }
+
+            return result;
+        }
+
+        vm.getCompetitorPicture = function (vCompetitorID) {
+            var vIdx = parseInt(vCompetitorID);
+            //console.log(vIdx);
+            return vm.competitors[vIdx].picture;
+        }
+
+        vm.getCompetitorNames = function (vCompetitorID) {
+            var vIdx = parseInt(vCompetitorID);
+            //console.log(vIdx);
+            return vm.competitors[vIdx].names;
+        }
+
+        vm.changePredicate = function (vStatId) {
+            //alert('changing order predicate');
+            var result = '';
+            if (vm.move.hasOwnProperty(vStatId)) {
+                result = 'move.' + vStatId;
+            }
+            vm.orderPredicate = result;
+        }
+
         vm.gotoOverview = function () {
             $location.path('/competitor/');
         }
@@ -47,6 +97,12 @@
         vm.gotoMove = function (vMove) {
             datacontext.curMove = vMove;
             vm.move = vMove;
+            getMovesByCategory();
+        }
+
+        vm.gotoCompetitorOverview = function (vCompetitorID) {
+            //goto 
+            //alert(vCompetitor.names[0]);
         }
     }
 })();

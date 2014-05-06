@@ -1,0 +1,486 @@
+{
+    stats_cat:
+    [
+        {
+            cat_name: 'Overview',
+            cat_id: 'overview',
+            stats_tracked: [
+                {
+                    stat_name: 'Ranking', 
+                    stat_id: 'ranking'
+                },
+                {
+                    stat_name: 'Avg. Speed', 
+                    stat_id: 'avg_speed'
+                },
+                {
+                    stat_name: 'Max. Speed', 
+                    stat_id: 'max_speed'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'ice_coverage'
+                }                
+            ]
+        },
+        {
+            cat_name: 'Jumps',
+            cat_id: 'jumps',
+            cat_types: [
+                'jump_type_1',
+                'jump_type_2',
+                'jump_type_3',
+                'jump_type_4'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Height', 
+                    stat_id: 'move_height'
+                },
+                {
+                    stat_name: 'Distance', 
+                    stat_id: 'move_distance'
+                }
+            ]
+        },
+        {
+            cat_name: 'Lifts',
+            cat_id: 'lifts',
+            cat_types: [
+                'lift_type_1',
+                'lift_type_2',
+                'lift_type_3',
+                'lift_type_4'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'Twists',
+            cat_id: 'twists',
+            cat_types: [
+                'twist_type_1',
+                'twist_type_2',
+                'twist_type_3',
+                'twist_type_4'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Height', 
+                    stat_id: 'move_height'
+                }
+            ]
+        }
+    ],
+        
+    events:
+    [
+        {
+            event_name: 'Men Events',
+            event_type: 'men',
+            programs: 
+            [
+                {
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'male',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'jumps',
+                                    move_type: 'jump_type_1',
+                                    move_name: 'jump',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Long Program',
+                    program_type: 'long',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'male',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'jumps',
+                                    move_name: 'jump',
+                                    move_type: 'jump_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+
+        {
+            event_name: 'Ladies Events',
+            event_type: 'ladies',
+            programs: 
+            [
+                {
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'female',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'jumps',
+                                    move_name: 'jump',
+                                    move_type: 'jump_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Long Program',
+                    program_type: 'long',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'female',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'jumps',
+                                    move_name: 'jump',
+                                    move_type: 'jump_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            event_name: 'Pairs Events',
+            event_type: 'pairs',
+            programs: 
+            [
+                {
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'lifts',
+                                    move_name: 'lift',
+                                    move_type: 'lift_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                },
+                                
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'twists',
+                                    move_name: 'twist',
+                                    move_type: 'twist_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Long Program',
+                    program_type: 'long',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'lifts',
+                                    move_name: 'lift',
+                                    move_type: 'lift_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                },
+                                
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'twists',
+                                    move_name: 'twist',
+                                    move_type: 'twist_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            event_name: 'Ice Dance Events',
+            event_type: 'ice_dance',
+            programs: 
+            [
+                {
+                    program_name: 'Short Dance',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'lifts',
+                                    move_name: 'lift',
+                                    move_type: 'lift_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    program_name: 'Free Dance',
+                    program_type: 'free',
+                    competitors: 
+                    [
+                        '{{repeat(5, 7)}}',
+                        {
+                            id: '{{index()}}',
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+                                    move_id: '{{index()}}',
+                                    move_category: 'lifts',
+                                    move_name: 'lift',
+                                    move_type: 'lift_type_1',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_speed: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{numeric(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{numeric(0.5, 100.00, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

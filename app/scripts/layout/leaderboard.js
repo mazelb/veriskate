@@ -25,7 +25,7 @@
             for(var i=0; i < datacontext.CompetitionData.stats_cat.length; i++) {
                 if(datacontext.CompetitionData.stats_cat[i].cat_id === 'overview') {
                     vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
-                }
+                } 
             }
         }
 
