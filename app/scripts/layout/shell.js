@@ -14,7 +14,8 @@
 				zIndex		: 	'9'
 			});
 
-			$('#section-filterlist').css('padding-top', navbarHeight+'px');
+			$('#section-filterlist').css('margin-top', (navbarHeight+30)+'px');
+			$('#section-competitor').css('margin-top', (navbarHeight+30)+'px');
 		} else {
 			$('#main-nav').css({
 				position 	: 	'static',
@@ -23,7 +24,8 @@
 				zIndex		: 	'auto'
 			});
 
-			$('#section-filterlist').css('padding-top', '0px');
+			$('#section-filterlist').css('margin-top', '30px');
+			$('#section-competitor').css('margin-top', '30px');
 		}
 
 	});
