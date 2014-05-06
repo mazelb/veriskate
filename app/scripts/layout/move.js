@@ -103,8 +103,10 @@
         }
 
         vm.gotoCompetitorOverview = function (vCompetitorID) {
-            //goto 
-            //alert(vCompetitor.names[0]);
+            var vIdx = parseInt(vCompetitorID);
+
+            datacontext.curCompetitor = vm.competitors[vIdx];
+            $location.path('/competitor/');
         }
     }
 })();

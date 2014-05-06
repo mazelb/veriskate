@@ -98,7 +98,7 @@
                 <tab ng-repeat="evMoveStat in vm.moveCategory.stats_tracked | limitTo:vm.maxNumViewStats" heading="{{evMoveStat.stat_name}}" select="vm.changePredicate(evMoveStat.stat_id)" style="cursor: pointer;">
 
                     <ul class="list">
-                        <li ng-repeat="evMove in vm.movesByCategory | orderBy:vm.orderPredicate | limitTo:5 " ng-click="vm.gotoCompetitorOverview(evMove.competitor_id)" style="cursor: pointer;">
+                        <li ng-repeat="evMove in vm.movesByCategory | orderBy:vm.orderPredicate:true | limitTo:5 " ng-click="vm.gotoCompetitorOverview(evMove.competitor_id)" style="cursor: pointer;">
                             <div class="row">
                                 <img class="col-xs-4" ng-src="{{vm.getCompetitorPicture(evMove.competitor_id)}}" height="50" width="50">
                                 <div class="col-xs-8">

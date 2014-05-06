@@ -12,9 +12,12 @@
         vm.sortingpredicate = 'overview.ranking'; //The sorting predicate for the competitors list
         vm.reverseSort = false; //list oredering: false = ascending, true = descending
         vm.maxNumListViewStats = datacontext.maxNumListViewStats;
-        vm.eventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
+
+        vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
         vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
+
         vm.programs = datacontext.CompetitionData.events[datacontext.curEvent].programs;
+        vm.events = datacontext.CompetitionData.events;
 
         //read the competitions data from json file
         datacontext.getCompetitionData()
@@ -22,6 +25,7 @@
                 if (data.data.events.length > 0) {
                     vm.competition = data.data.events;
                     datacontext.CompetitionData = data.data;
+                    getCurCompetitorsData();
                 } else {
                     alert('Error reading JSON file for competition');
                 }
@@ -32,20 +36,23 @@
         );
 
         // console.log(datacontext.curEvent);
-         console.log( datacontext.CompetitionData.events[datacontext.curEvent].event_type );
+        //console.log( datacontext.CompetitionData.events[datacontext.curEvent].event_type );
+        //getCurCompetitorsData();
   
-        //Get the list of competitors from the datacontext service
-        if(datacontext.CompetitionData && datacontext.CompetitionData.events.length > 0) {
-            vm.competitors = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors;
-        }
+        var getCurCompetitorsData = function () {
+            //Get the list of competitors from the datacontext service
+            if (datacontext.CompetitionData && datacontext.CompetitionData.events.length > 0) {
+                vm.competitors = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors;
+            }
 
-        //Get the list of tracked statistics from the datacontext service
-        if(datacontext.CompetitionData && datacontext.CompetitionData.stats_cat.length > 0) {
-            vm.categories = datacontext.CompetitionData.stats_cat;
-            for(var i=0; i < datacontext.CompetitionData.stats_cat.length; i++) {
-                if(datacontext.CompetitionData.stats_cat[i].cat_id === 'overview') {
-                    vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
-                } 
+            //Get the list of tracked statistics from the datacontext service
+            if (datacontext.CompetitionData && datacontext.CompetitionData.stats_cat.length > 0) {
+                vm.categories = datacontext.CompetitionData.stats_cat;
+                for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
+                    if (datacontext.CompetitionData.stats_cat[i].cat_id === 'overview') {
+                        vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
+                    }
+                }
             }
         }
 
@@ -96,6 +103,21 @@
                 vm.reverseSort = false;
                 vm.sortingpredicate = newPredicate;
             }
+        }
+
+        vm.changeCurProgram = function (vProgIdx) {
+            datacontext.curProgram = vProgIdx;
+            vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
+            vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
+            getCurCompetitorsData();
+        }
+
+        vm.changeCurEvent = function (vEventIdx) {
+            datacontext.curProgram = 0;
+            datacontext.curEvent = vEventIdx;
+            vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
+            vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
+            getCurCompetitorsData();
         }
 
         //decide if it's a pair event
