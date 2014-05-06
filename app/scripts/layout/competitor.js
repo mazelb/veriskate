@@ -29,6 +29,7 @@
 
         vm.title = 'Competitor Details Overview';
         vm.maxNumListViewStats = datacontext.maxNumListViewStats;
+        vm.curMove = 'Overview';
 
 
         //Get the current competitor from the datacontext service

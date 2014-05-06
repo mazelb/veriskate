@@ -4,36 +4,58 @@
     <nav class="navbar navbar-default" role="navigation" id="main-nav">
         <div class="container-fluid">
             <div class="container">
-            <div class="row">
-                <div class="col-sm-1 col-xs-2">
-                    <div class="btn-group btn-group-justified">
-                        <a class="btn btn-default glyphicon glyphicon-chevron-left" href="#/leaderboard"></a>
-                    </div>
-                </div>
 
-                <div class="col-sm-7 col-xs-12">
+            <div class="row">
+                <div class="col-lg-12">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/leaderboard"><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">
+                            <div class="skater-image-small pull-left"><img class="pull-left" ng-src="{{vm.competitor.picture}}"></div>
+                            <span ng-repeat="evName in vm.competitor.names">{{evName}}</span> <b class="caret"></b></a>
+
+                        <div class="dropdown-menu">
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{vm.move.move_name + vm.move.move_id}} <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a role="menuitem" tabindex="0" ng-click="vm.gotoOverview()">Overview</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation" ng-repeat="evMove in vm.moves"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.gotoMove(evMove)">{{evMove.move_name + ' ' + evMove.move_id}}</a></li>
+                        </ul>
+                    <li>
+                </ul>
+                </div>
+<!--                 <div class="col-lg-6">
                     <form class="navbar-form" role="search">
                         <div class="form-group">
-                            <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
+                            <input type="text" class="form-control search" placeholder="Quick Search Skater" ng-model="search.name">
                         </div>
                     </form>
-                </div>
-                
-                <div class="col-sm-4 col-xs-12 skater-profile">
-                    <img class="pull-left" ng-src="{{vm.competitor.picture}}">
-                    <h4 ng-repeat="evName in vm.competitor.names">{{evName}}</h4>
-                </div>
+                </div> -->
             </div>
-            </div>
-        </div>
     </nav>
     <!-- END NAVBAR -->
 
     <!-- MAIN CONTENT -->
-    <div class="container">
+    <div class="container" id="section-competitor">
     <div class="row">
 
         <!-- VIDEO CONTENT -->
+        <div class="col-lg-8">
+            <img class="video-temp" ng-src="{{vm.competitor.overview.video_url}}">
+
+            <div style="border-style:solid; border-width:1px;" ng-repeat="evMoveStat in vm.moveStats.stats_tracked | limitTo:vm.maxNumViewStats">
+                <center>
+                    <h3>{{evMoveStat.stat_name}}</h3>
+                    <h3>{{vm.getStatValue(evMoveStat.stat_id)}}</h3>
+                </center>
+            </div>
+        </div>
+        <!-- end VIDEO CONTENT  -->
+
+        <!-- VIDEO CONTENT 
         <div class="col-md-8">
             <div class="dropdown dropdown-justified">
                 <a class="btn-block btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Filter Specific Move <span class="caret"></span></a>
@@ -54,10 +76,12 @@
                 </div>
             </div>
         </div>
-        <!-- end VIDEO CONTENT  -->
+        end VIDEO CONTENT  -->
         <!-- SIDEBAR-->
-        <div class="col-md-4">
-            <h2>{{vm.move.move_name + vm.move.move_id}}</h2>
+        <div class="col-md-4 sidebar">
+            <ul class="list-header">
+                <li>{{vm.move.move_name + vm.move.move_id}}</li>
+            </ul>
 
             <!-- sidebar tabs -->
             <tabset justified="true">

@@ -12,8 +12,28 @@
         vm.sortingpredicate = 'overview.ranking'; //The sorting predicate for the competitors list
         vm.reverseSort = false; //list oredering: false = ascending, true = descending
         vm.maxNumListViewStats = datacontext.maxNumListViewStats;
+        vm.eventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
+        vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
+        vm.programs = datacontext.CompetitionData.events[datacontext.curEvent].programs;
 
-        
+        //read the competitions data from json file
+        datacontext.getCompetitionData()
+            .then(function (data) {
+                if (data.data.events.length > 0) {
+                    vm.competition = data.data.events;
+                    datacontext.CompetitionData = data.data;
+                } else {
+                    alert('Error reading JSON file for competition');
+                }
+            },            
+            function () {
+                alert('Error reading JSON file for competition');
+            }
+        );
+
+        // console.log(datacontext.curEvent);
+         console.log( datacontext.CompetitionData.events[datacontext.curEvent].event_type );
+  
         //Get the list of competitors from the datacontext service
         if(datacontext.CompetitionData && datacontext.CompetitionData.events.length > 0) {
             vm.competitors = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors;
@@ -78,10 +98,27 @@
             }
         }
 
+        //decide if it's a pair event
+        vm.isPairEvent = function(){
+            if(datacontext.CompetitionData.events[datacontext.curEvent].event_type == "pairs" ||
+                datacontext.CompetitionData.events[datacontext.curEvent].event_type == "ice_dance" ) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
         //When a competitor is selected, switch to details view of competitor
         vm.competitorSelected = function (vCompetitor) {
             datacontext.curCompetitor = vCompetitor;
             $location.path('/competitor/');
+        }
+
+        vm.gotoLeaderBoard = function (vIdx) {
+            console.log("working");
+            datacontext.curProgram = vIdx;
+            $location.path('/leaderboard/');
+            //window.location = '#/leaderboard/';
         }
         
     }
