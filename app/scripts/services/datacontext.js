@@ -12,7 +12,7 @@
         var curProgram = 0;
         var curCompetitor = null;
         var curMove = null;
-        var maxNumListViewStats = 4;
+        var maxNumListViewStats = 5;
         var allMoves = [];
 
         var service = {

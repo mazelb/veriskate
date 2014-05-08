@@ -1,11 +1,11 @@
 ﻿(function () {
     'use strict';
     var controllerId = 'moveCtrl';
+    var filterId = 'filterMoves';
     angular.module('veriskateWebApp').controller(controllerId, ['$location', 'datacontext', moveCtrl]);
+    angular.module('veriskateWebApp').filter(filterId, filterMoves);
 
     //TODO: Connect the search bar in specific move to the sidebar content
-
-    //TODO: mobile responsiveness
 
     function moveCtrl($location, datacontext) {
         var vm = this;
@@ -13,6 +13,8 @@
         vm.title = 'Competitor Move Details';
         vm.maxNumViewStats = datacontext.maxNumListViewStats;
         vm.orderPredicate = '';
+        vm.filterByMoveRotations = false;
+        vm.filterByMoveType = false;
 
         var getMovesByCategory = function () {
             //flatten moves into a single array
@@ -27,7 +29,7 @@
                 }
             }
         }
-
+       
         //Get the current competitor from the datacontext service
         if (datacontext.CompetitionData && datacontext.curMove && datacontext.CompetitionData.events.length > 0) {
             vm.competitor = datacontext.curCompetitor;
@@ -35,9 +37,12 @@
             vm.move = datacontext.curMove;
             vm.competitors = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors;
 
+            console.log(vm.move.move_category);
+
             for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
                 if (datacontext.CompetitionData.stats_cat[i].cat_id === vm.move.move_category) {
                     vm.moveCategory = datacontext.CompetitionData.stats_cat[i];
+                    console.log(vm.moveCategory.stats_tracked);
                 }
             }
 
@@ -88,9 +93,9 @@
             vm.orderPredicate = result;
         }
 
-        vm.changeMoveType = function (vMoveType) {
-            //switch to a different move type in the sidebar
-        }
+        //vm.changeMoveType = function (vMoveType) {
+        //    //switch to a different move type in the sidebar
+        //}
 
         vm.gotoOverview = function () {
             $location.path('/competitor/');
@@ -109,4 +114,32 @@
             $location.path('/competitor/');
         }
     }
+
+    function filterMoves() {
+        return function (items, vMove, vFilterByType, vFilterByRotation) {
+
+            var arrayToReturn = [];
+
+            for (var i = 0; i < items.length; i++) {
+                if (vFilterByType) {
+                    if (items[i].move.move_type == vMove.move_type) {
+                        if (vFilterByRotation) {
+                            if (vMove.move_use_rot && items[i].move.move_rot == vMove.move_rot) {
+                                arrayToReturn.push(items[i]);
+                            } else if ((!vMove.move_use_rot) && items[i].move.move_rotations == vMove.move_rotations) {
+                                arrayToReturn.push(items[i]);
+                            }
+                        } else {
+                            arrayToReturn.push(items[i]);
+                        }
+                    }
+                } else {
+                    arrayToReturn.push(items[i]);
+                }
+            }
+
+            return arrayToReturn;
+        };
+    };
+
 })();

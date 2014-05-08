@@ -21,7 +21,7 @@
                         <ul class="dropdown-menu">
                             <li><a role="menuitem" tabindex="0" ng-click="vm.gotoOverview()">Overview</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation" ng-repeat="evMove in vm.moves"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.gotoMove(evMove)">{{evMove.move_name + ' ' + evMove.move_id}}</a></li>
+                            <li role="presentation" ng-repeat="evMove in vm.moves"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.gotoMove(evMove)">{{evMove.move_name}}</a></li>
                         </ul>
                     <li>
                 </ul>

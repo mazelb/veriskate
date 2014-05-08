@@ -107,7 +107,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -126,6 +125,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_type: 'jump_type_1',
@@ -148,7 +148,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -167,6 +166,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_name: 'jump',
@@ -197,7 +197,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -216,6 +215,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_name: 'jump',
@@ -238,7 +238,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -257,6 +256,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'jumps',
                                     move_name: 'jump',
@@ -287,7 +287,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -306,6 +305,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
@@ -320,6 +320,7 @@
                                 
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'twists',
                                     move_name: 'twist',
@@ -342,7 +343,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -361,6 +361,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
@@ -375,6 +376,7 @@
                                 
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'twists',
                                     move_name: 'twist',
@@ -405,7 +407,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -424,6 +425,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
@@ -446,7 +448,6 @@
                     [
                         '{{repeat(5, 7)}}',
                         {
-                            id: '{{index()}}',
                             guid: '{{guid()}}',
                             picture: 'http://placehold.it/100x100',
                             names: [
@@ -465,6 +466,7 @@
                             [
                                 '{{repeat(2, 3)}}',
                                 {
+									guid: '{{guid()}}',
                                     move_id: '{{index()}}',
                                     move_category: 'lifts',
                                     move_name: 'lift',
