@@ -1,0 +1,827 @@
+{
+    stats_cat:
+    [
+        {
+            cat_name: 'Overview',
+            cat_id: 'overview',
+            stats_tracked: [
+                {
+                    stat_name: 'Ranking', 
+                    stat_id: 'ranking'
+                },
+                {
+                    stat_name: 'Avg. Speed', 
+                    stat_id: 'avg_speed'
+                },
+                {
+                    stat_name: 'Max. Speed', 
+                    stat_id: 'max_speed'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'ice_coverage'
+                }                
+            ]
+        },
+        {
+            cat_name: '2-Combo',
+            cat_id: 'combo_2',
+            cat_types: [
+                '2-combo'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                },
+                {
+                    stat_name: 'Distance', 
+                    stat_id: 'move_distance'
+                }
+            ]
+        },
+        {
+            cat_name: '3-Combo',
+            cat_id: 'combo_3',
+            cat_types: [
+                '3-combo'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                },
+                {
+                    stat_name: 'Distance', 
+                    stat_id: 'move_distance'
+                }
+            ]
+        },
+        {
+            cat_name: 'Choreo Seq',
+            cat_id: 'choreo_seq',
+            cat_types: [
+                'ChSq'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'Death Spiral',
+            cat_id: 'death_spiral',
+            cat_types: [
+                'Bi',
+                'Bo',
+                'Fi'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Rotations', 
+                    stat_id: 'move_rotations'
+                },
+                {
+                    stat_name: 'Revs Per Sec.', 
+                    stat_id: 'move_rot_per_sec'
+                }
+            ]
+        },
+        {
+            cat_name: 'Finn Step 1',
+            cat_id: 'finn_step_1',
+            cat_types: [
+                '1FS'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'Finn Step 2',
+            cat_id: 'finn_step_2',
+            cat_types: [
+                '2FS'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'Jump',
+            cat_id: 'jump',
+            cat_types: [
+                'A',
+                'F',
+                'Lo',
+                'Lz',
+                'S',
+                'T'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Rot', 
+                    stat_id: 'move_rot'
+                },
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Height', 
+                    stat_id: 'move_height'
+                },
+                {
+                    stat_name: 'Distance', 
+                    stat_id: 'move_distance'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                }
+            ]
+        },
+        {
+            cat_name: 'Lift',
+            cat_id: 'lift',
+            cat_types: [
+                '3',
+                '5A',
+                '5B',
+                '5R',
+                '5S',
+                '5T',
+                'Ch',
+                'Cu',
+                'Ro',
+                'SI',
+                'St'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'Lift Combo',
+            cat_id: 'lift_combo',
+            cat_types: [
+                'Cu',
+                'SI'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'SEQ',
+            cat_id: 'seq',
+            cat_types: [
+                'SEQ'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Rot', 
+                    stat_id: 'move_rot'
+                },
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Distance', 
+                    stat_id: 'move_distance'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                }
+            ]
+        },
+        {
+            cat_name: 'Spin',
+            cat_id: 'spin',
+            cat_types: [
+                'CC',
+                'CCo',
+                'Co',
+                'Cs',
+                'FC',
+                'FCCo',
+                'FCo',
+                'FCs',
+                'FS',
+                'FU',
+                'L',
+                'PCo',
+                'Sp'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Rotations', 
+                    stat_id: 'move_rotations'
+                },
+                {
+                    stat_name: 'Revs Per Sec.', 
+                    stat_id: 'move_rot_per_sec'
+                }
+            ]
+        },
+        {
+            cat_name: 'Step Seq',
+            cat_id: 'step_seq',
+            cat_types: [
+                'Ci',
+                'Di',
+                'NtCi',
+                'NtMi',
+                'StSq'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        },
+        {
+            cat_name: 'Throw',
+            cat_id: 'throw',
+            cat_types: [
+                '3F',
+                '3Lo',
+                '3Lz',
+                '3S'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Height', 
+                    stat_id: 'move_height'
+                },
+                {
+                    stat_name: 'Distance', 
+                    stat_id: 'move_distance'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                }
+            ]
+        },
+        {
+            cat_name: 'Twist',
+            cat_id: 'twist',
+            cat_types: [
+                'Tw'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Rot', 
+                    stat_id: 'move_rot'
+                },
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Height', 
+                    stat_id: 'move_height'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                }
+            ]
+        },
+        {
+            cat_name: 'Twizzle',
+            cat_id: 'twizzle',
+            cat_types: [
+                'STw'
+            ],
+            stats_tracked: [
+                {
+                    stat_name: 'Speed', 
+                    stat_id: 'move_speed'
+                },
+                {
+                    stat_name: 'Flow', 
+                    stat_id: 'move_flow'
+                },
+                {
+                    stat_name: 'Ice Coverage', 
+                    stat_id: 'move_coverage'
+                }
+            ]
+        }
+    ],
+        
+    events:
+    [
+        {
+            guid: '{{guid()}}',
+            event_name: 'Men',
+            event_type: 'men',
+            programs: 
+            [
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Free Program',
+                    program_type: 'free',
+                    competitors: 
+                    [
+                        '{{repeat(10, 10)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'male',
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{integer(1, 100)}}',
+                                avg_speed: '{{floating(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{floating(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(20, 20)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'jump',
+                                    move_type: 'A',
+                                    move_name: 'A3',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+                                    move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(10, 10)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'male',
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(9, 9)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'jump',
+                                    move_type: 'A',
+                                    move_name: 'A3',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+									move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+
+        {
+            guid: '{{guid()}}',
+            event_name: 'Ladies',
+            event_type: 'ladies',
+            programs: 
+            [
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Free Program',
+                    program_type: 'free',
+                    competitors: 
+                    [
+                        '{{repeat(8, 8)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'female',
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(20, 20)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'jump',
+                                    move_type: 'A',
+                                    move_name: 'A3',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+									move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(9, 9)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            gender: 'female',
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(2, 3)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'jump',
+                                    move_type: 'A',
+                                    move_name: 'A3',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+									move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            guid: '{{guid()}}',
+            event_name: 'Pairs',
+            event_type: 'pairs',
+            programs: 
+            [
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Free Program',
+                    program_type: 'free',
+                    competitors: 
+                    [
+                        '{{repeat(8, 8)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            
+                            moves: 
+                            [                              
+                                '{{repeat(15, 15)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'twist',
+                                    move_type: 'Tw',
+                                    move_name: '4Tw3',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+									move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ]    
+                        }
+                    ]
+                },
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Short Program',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(8, 8)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [                                
+                                '{{repeat(7, 7)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'twist',
+                                    move_type: 'Tw',
+                                    move_name: '4Tw3',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+									move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ] 
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            guid: '{{guid()}}',
+            event_name: 'Dance',
+            event_type: 'dance',
+            programs: 
+            [
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Free Dance',
+                    program_type: 'free',
+                    competitors: 
+                    [
+                        '{{repeat(8, 8)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(10, 10)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'lift',
+                                    move_type: '5A',
+                                    move_name: '5ALi4',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+									move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ]                            
+                        }
+                    ]
+                },
+                {
+                    guid: '{{guid()}}',
+                    program_name: 'Short Dance',
+                    program_type: 'short',
+                    competitors: 
+                    [
+                        '{{repeat(8, 8)}}',
+                        {
+                            guid: '{{guid()}}',
+                            picture: 'http://placehold.it/100x100',
+                            names: [
+                                '{{firstName()}} {{surname()}}',
+                                '{{firstName()}} {{surname()}}'
+                            ],
+                            country: 'CAN',
+                            start_order: '1',
+                            overview: 
+                            {
+                                ranking: '{{numeric(0.5, 10, 000)}}',
+                                avg_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                max_speed: '{{numeric(0.5, 100.00, 0.00)}}' ,
+                                ice_coverage: '{{numeric(0.5, 100.00, 0.00)}}',
+                                video_url: 'http://placehold.it/600x600'
+                            },
+                            moves: 
+                            [
+                                '{{repeat(5, 5)}}',
+                                {
+									guid: '{{guid()}}',
+                                    move_id: '{{index()}}',
+                                    move_category: 'lift',
+                                    move_type: '5A',
+                                    move_name: '5ALi4',
+                                    move_video_url: 'http://placehold.it/600x600',
+                                    move_display: '{{integer(0, 1)}}',
+                                    move_order: '{{integer(1, 10, 0)}}',
+                                    move_sequence_order: '{{integer(1, 10, 0)}}',
+                                    move_speed: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_height: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_distance: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_flow: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_coverage: '{{floating(0.5, 100.00, 0.00)}}',
+                                    move_use_rot: '{{bool()}}',
+									move_rot: '{{integer(1, 4, 0)}}',
+                                    move_rotations: '{{integer(1, 15, 0)}}',
+                                    move_rot_per_sec: '{{floating(0.0, 5.0, 0.00)}}'
+                                }
+                            ]    
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

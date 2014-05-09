@@ -16,6 +16,17 @@
         vm.filterByMoveRotations = false;
         vm.filterByMoveType = false;
 
+        var getCurCategories = function () {
+            //console.log(vm.move.move_category);
+
+            for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
+                if (datacontext.CompetitionData.stats_cat[i].cat_id === vm.move.move_category) {
+                    vm.moveCategory = datacontext.CompetitionData.stats_cat[i];
+                    console.log(vm.moveCategory.stats_tracked);
+                }
+            }
+        }
+
         var getMovesByCategory = function () {
             //flatten moves into a single array
             vm.movesByCategory = [];
@@ -36,16 +47,9 @@
             vm.moves = vm.competitor.moves;
             vm.move = datacontext.curMove;
             vm.competitors = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors;
-
-            console.log(vm.move.move_category);
-
-            for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
-                if (datacontext.CompetitionData.stats_cat[i].cat_id === vm.move.move_category) {
-                    vm.moveCategory = datacontext.CompetitionData.stats_cat[i];
-                    console.log(vm.moveCategory.stats_tracked);
-                }
-            }
-
+            //console.log(vm.competitors);
+            
+            getCurCategories();
             getMovesByCategory();
         }
 
@@ -104,6 +108,7 @@
         vm.gotoMove = function (vMove) {
             datacontext.curMove = vMove;
             vm.move = vMove;
+            getCurCategories();
             getMovesByCategory();
         }
 
