@@ -138,7 +138,7 @@
         //decide if it's a pair event
         vm.isPairEvent = function(){
             if(datacontext.CompetitionData.events[datacontext.curEvent].event_type == "pairs" ||
-                datacontext.CompetitionData.events[datacontext.curEvent].event_type == "ice_dance" ) {
+                datacontext.CompetitionData.events[datacontext.curEvent].event_type == "dance" ) {
                 return true;
             } else {
                 return false;
