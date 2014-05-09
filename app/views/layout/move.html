@@ -130,7 +130,14 @@
                                 <h5 ng-if="evMoveStat.stat_id == 'move_flow'">(percent)</h5>
                             </div>
 
-                            <div class="col-lg-4 {{evMoveStat.stat_id}}" ng-repeat="evMoveStat in vm.moveCategory.stats_tracked | limitTo:vm.maxNumViewStats" ng-if="evMoveStat.stat_id!='move_rot' && vm.moveCategory.stats_tracked.length <= 3">
+                            <div class="col-lg-4 {{evMoveStat.stat_id}}" ng-repeat="evMoveStat in vm.moveCategory.stats_tracked | limitTo:vm.maxNumViewStats" ng-if="evMoveStat.stat_id!='move_rot' && vm.moveCategory.stats_tracked.length == 3">
+                                <span>{{evMoveStat.stat_name}}</span>
+                                <h4>{{vm.getStatValue(evMoveStat.stat_id)}}</h4>
+                                <h5 ng-if="evMoveStat.stat_id == 'move_speed'">(km/h)</h5>
+                                <h5 ng-if="evMoveStat.stat_id == 'move_height' || evMoveStat.stat_id == 'move_distance'">(meters)</h5>
+                                <h5 ng-if="evMoveStat.stat_id == 'move_flow'">(percent)</h5>
+                            </div>
+                            <div class="col-lg-6 {{evMoveStat.stat_id}}" ng-repeat="evMoveStat in vm.moveCategory.stats_tracked | limitTo:vm.maxNumViewStats" ng-if="evMoveStat.stat_id!='move_rot' && vm.moveCategory.stats_tracked.length == 2">
                                 <span>{{evMoveStat.stat_name}}</span>
                                 <h4>{{vm.getStatValue(evMoveStat.stat_id)}}</h4>
                                 <h5 ng-if="evMoveStat.stat_id == 'move_speed'">(km/h)</h5>
