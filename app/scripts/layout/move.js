@@ -57,6 +57,15 @@
             getMovesByCategory();
         }
 
+        //decide if it's a pair event
+        vm.isPairEvent = function(){
+            if(datacontext.curEvent == "2" ||
+                datacontext.curEvent == "3" ) {
+                return true;
+            } else {
+                return false;
+            }
+        }
 
         //return the value of the overview stats for a specific competitor
         vm.getStatValue = function (vStatId) {

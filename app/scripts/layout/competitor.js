@@ -18,8 +18,6 @@
         vm.maxNumListViewStats = datacontext.maxNumListViewStats;
         vm.curMove = 'Overview';
 
-        console.log(datacontext);
-
         //Get the current competitor from the datacontext service
         if (datacontext.CompetitionData && datacontext.curCompetitor && datacontext.CompetitionData.events.length > 0) {
             vm.competitor = datacontext.curCompetitor;

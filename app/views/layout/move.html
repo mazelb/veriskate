@@ -21,7 +21,7 @@
                                 </div>
 
                                 <div>
-                                    <ul class="list">
+                                    <ul class="list" ng-class="{'pairs':vm.isPairEvent()}">
                                         <li ng-repeat="evCompetitor in vm.competitors | filter:{names: search.name}" ng-click="vm.gotoOverviewSearch(evCompetitor)"
                                             ng-show="$index <= 2 && search.name">
                                                 <div class="skater-image pull-left"><img ng-src="{{evCompetitor.picture}}" /></div>
