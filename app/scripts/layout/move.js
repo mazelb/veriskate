@@ -101,6 +101,16 @@
             vm.orderPredicate = result;
         }
 
+        vm.filterByMoveClicked = function () {
+            console.log('toggle filtering by move');
+            vm.filterByMoveType = !vm.filterByMoveType;
+        }
+        
+        vm.filterByRotClicked = function () {
+            console.log('toggle filtering by Rot');
+            vm.filterByMoveRotations = !vm.filterByMoveRotations;
+        }
+
         //vm.changeMoveType = function (vMoveType) {
         //    //switch to a different move type in the sidebar
         //}

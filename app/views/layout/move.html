@@ -103,8 +103,8 @@
                     <ul class="list-header">
                         <li>
                             <div class="btn-group btn-group-justified">
-                                <a href="#" class="btn btn-default active">Filter By Type</a>
-                                <a href="#" class="btn btn-default">Filter By Rotation</a>
+                                <a href="" class="btn btn-default" ng-class="{'active':vm.filterByMoveType}" ng-click="vm.filterByMoveClicked()">Filter By Type</a>
+                                <a href="" class="btn btn-default" ng-class="{'active':vm.filterByMoveRotations}" ng-click="vm.filterByRotClicked()">Filter By Rotation</a>
                             </div>
                         </li>
                         <!--<li class="dropdown">
