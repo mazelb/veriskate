@@ -219,6 +219,47 @@ $nav-secondary: #fdfdfd;
                     margin: 0;
                 }
             }
+            .dropdown-menu-search {
+                width: 350px;
+                .navbar-form {
+                    margin: 0;
+                    padding: 0;
+                    .form-group {
+                        padding: 15px;
+                    }
+                    .list {
+                        background: white;
+                        li {
+                            border-bottom: 1px solid #e7e7e7;
+                            display: block;
+                            overflow: hidden;
+                            padding: 15px;
+                            .skater-image {
+                                display: block;
+                                height: 40px;
+                                width: 40px;
+                                margin-right: 10px;
+                                img {
+                                    border-radius: 4px;
+                                    height: 40px;
+                                    width: 40px;
+                                }
+                            }
+                            .skater-name {
+                                color: $grey;
+                                font-weight: bold;
+                                line-height: 40px;
+                            }
+                            &:last-child {
+                                border-bottom: none;
+                            }
+                            &:hover {
+                                background: #fbfbfb;
+                            }
+                        }
+                    }
+                }
+            }
             div.dropdown-menu {
                 padding: 0;
                 .col-lg-3 {
