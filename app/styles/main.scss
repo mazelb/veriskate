@@ -13,6 +13,8 @@ $secondary-red: #c74d4d;
 $highlight-red: #540000;
 $dark-red: #9e0000;
 $pink: #ffb9b9;
+$grey: #999;
+$dark-grey: #777;
 
 $nav-base: #fff;
 $nav-secondary: #fdfdfd;
@@ -35,7 +37,7 @@ $nav-secondary: #fdfdfd;
     padding: 0;
     li {
         border-bottom: 1px solid #eee;
-        color: #777;
+        color: $dark-grey;
         display: block;
         font-weight: bold;
         font-size: 18px;
@@ -43,10 +45,10 @@ $nav-secondary: #fdfdfd;
         margin: 0;
         padding: 20px 10px;
         .caret {
-            color: #777;
+            color: $dark-grey;
         }
         a {
-            color: #777;
+            color: $dark-grey;
             text-decoration: none;
             &:hover {
                 color: #333;
@@ -322,7 +324,7 @@ $nav-secondary: #fdfdfd;
             text-align: center;
             .cell {
                 border-right: 1px solid #e7e7e7;
-                color: #777;
+                color: $dark-grey;
                 font-size: 18px;
                 padding: 20px;
                 &:first-child {
@@ -380,16 +382,17 @@ $nav-secondary: #fdfdfd;
             li {
                 background: white;
                 cursor: auto;
+                overflow: hidden;
                 padding: 20px 0;
                 span {
-                    color: #999;
+                    color: $grey;
                     font-size: 18px;
                     font-weight: bold;
                     display: block;
                     text-align: center;
                 }
                 h3 {
-                    color: #777;
+                    color: $dark-grey;
                     display: block;
                     font-size: 48px;
                     margin-top: 0;
@@ -406,6 +409,90 @@ $nav-secondary: #fdfdfd;
                 }
                 .ice_coverage {
                     background: url(../images/icon_ice_coverage.png) no-repeat 20px center;
+                }
+            }
+        }
+        .list-stats {
+            background: white;
+            display: block;
+            overflow: hidden;
+            padding: 20px 0;
+            .col-lg-3.move_speed {
+                background: url(../images/icon_move_speed.png) no-repeat 7px center;
+            }
+            .col-lg-3.move_height {
+                background: url(../images/icon_move_height.png) no-repeat 10px center;
+            }
+            .col-lg-3.move_distance {
+                background: url(../images/icon_move_distance.png) no-repeat 14px center;
+            }
+            .col-lg-3.move_flow {
+                background: url(../images/icon_move_flow.png) no-repeat 7px center;
+            }
+            .col-lg-4.move_speed {
+                background: url(../images/icon_move_speed.png) no-repeat 14px center;
+            }
+            .col-lg-4.move_height {
+                background: url(../images/icon_move_height.png) no-repeat 14px center;
+            }
+            .col-lg-4.move_distance {
+                background: url(../images/icon_move_distance.png) no-repeat 18px center;
+            }
+            .col-lg-4.move_flow {
+                background: url(../images/icon_move_flow.png) no-repeat 14px center;
+            }
+            span {
+                color: $grey;
+                font-size: 12px;
+                font-weight: bold;
+                display: block;
+                text-align: center;
+            }
+            h4 {
+                color: $dark-grey;
+                display: block;
+                font-size: 24px;
+                font-weight: bold;
+                margin: 0;
+                text-align: center;
+            }
+            h5 {
+                color: $dark-grey;
+                display: block;
+                font-size: 10px;
+                font-weight: bold;
+                margin-top: 0;
+                text-align: center;
+            }
+        }
+        .list-competitors {
+            li {
+                display: block;
+                height: 90px;
+                padding: 15px;
+                .skater-image {
+                    display: block;
+                    margin-right: 15px;
+                    img {
+                        border-radius: 4px;
+                        height: 60px;
+                        width: 60px;
+                        overflow: hidden;
+                    }
+                }
+                
+                h2 {
+                    color: $grey;
+                    font-size: 18px;
+                    line-height: 60px;
+                    margin: 0;
+                }
+                h3 {
+                    color: $dark-grey;
+                    font-size: 24px;
+                    line-height: 60px;
+                    margin: 0;
+                    text-align: right;
                 }
             }
         }
