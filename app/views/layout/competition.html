@@ -8,14 +8,14 @@
             </div>
         
             <ul class="list-header row">
-            <li class="col-lg-6" ng-repeat="program in comp.programs"><a href="#">{{program.program_name}}</a></li>
+                <li class="col-lg-6" ng-repeat="program in comp.programs" ng-click="vm.gotoLeaderBoard(comp, $index)"><a href="">{{program.program_name}}</a></li>
             </ul>
         </div>
         <!-- <img src="/images/{{vm.competitionEventsImage}}" alt=""> -->
 
 
         <!-- MAIN CONTENT -->
-        <div class="container">
+        <!--<div class="container">
             <div class="row">
 
                 <div class="col-xs-12 bhoechie-tab-container">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!--!end MAIN CONTENT -->
     </div>
 </div><!--!end MAIN CONTENT -->
