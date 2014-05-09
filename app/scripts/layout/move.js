@@ -27,6 +27,10 @@
             }
         }
 
+        vm.preventClose = function (event) {
+            event.stopPropagation();
+        };
+
         var getMovesByCategory = function () {
             //flatten moves into a single array
             vm.movesByCategory = [];
@@ -116,6 +120,12 @@
             var vIdx = parseInt(vCompetitorID);
 
             datacontext.curCompetitor = vm.competitors[vIdx];
+            $location.path('/competitor/');
+        }
+
+        //navigate to competitor overview from search results
+        vm.gotoOverviewSearch = function (vCompetitor) {
+            datacontext.curCompetitor = vCompetitor;
             $location.path('/competitor/');
         }
     }
