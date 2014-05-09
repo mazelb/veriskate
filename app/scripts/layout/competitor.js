@@ -23,12 +23,19 @@
         if (datacontext.CompetitionData && datacontext.curCompetitor && datacontext.CompetitionData.events.length > 0) {
             vm.competitor = datacontext.curCompetitor;
             vm.moves = vm.competitor.moves;
+            vm.competitors = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors;
+
             for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
                 if (datacontext.CompetitionData.stats_cat[i].cat_id === 'overview') {
                     vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
                 }
             }
         }
+
+
+        vm.preventClose = function (event) {
+            event.stopPropagation();
+        };
 
         //return the value of the overview stats for a specific competitor
         vm.getStatValue = function (vStatId) {
@@ -44,6 +51,12 @@
         //navigate to overview (depracated)
         vm.gotoOverview = function () {
             //nothign to do here
+        }
+
+        //navigate to competitor overview from search results
+        vm.gotoCompetitorOverview = function (vCompetitor) {
+            datacontext.curCompetitor = vCompetitor;
+            $location.path('/competitor/');
         }
 
         //navigate to specific move view

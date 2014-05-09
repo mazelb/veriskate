@@ -15,9 +15,23 @@
 
                         <div class="dropdown-menu">
                             <form class="navbar-form" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
-                            </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name" ng-click="vm.preventClose($event)">
+                                </div>
+
+                                <div>
+                                    <ul class="list">
+                                        <li class="row" ng-repeat="evCompetitor in vm.competitors | filter:{names: search.name}" ng-click="vm.gotoCompetitorOverview(evCompetitor)"
+                                            ng-show="$index <= 2 && search.name">
+                                            <div class="col-lg-4 cell">
+                                                <div>
+                                                    <div class="skater-image pull-left"><img ng-src="{{evCompetitor.picture}}" /></div>
+                                                    <div class="skater-name" ng-repeat="evName in evCompetitor.names">{{evName}}</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </form>
                         </div>
                     </li>
