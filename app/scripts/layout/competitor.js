@@ -32,6 +32,11 @@
             }
         }
 
+
+        vm.preventClose = function (event) {
+            event.stopPropagation();
+        };
+
         //return the value of the overview stats for a specific competitor
         vm.getStatValue = function (vStatId) {
             var result = 'N/A';
