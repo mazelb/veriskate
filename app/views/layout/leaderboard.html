@@ -20,7 +20,7 @@
                                     <div class="col-lg-3" ng-repeat="evEvent in vm.events">
                                         <div class="event-title">{{evEvent.event_name}}</div>
                                         <ul>
-                                            <li ng-repeat="evProgram in evEvent.programs"><a href="#">{{evProgram.program_name}}</a></li>
+                                            <li ng-repeat="evProgram in evEvent.programs" ng-click="vm.changeCurProgram(evEvent, $index)"><a href="">{{evProgram.program_name}}</a></li>
                                         </ul>
                                     </div>
 

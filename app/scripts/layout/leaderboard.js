@@ -105,20 +105,35 @@
             }
         }
 
-        vm.changeCurProgram = function (vProgIdx) {
+        vm.changeCurProgram = function (vEvent, vProgIdx) {
             datacontext.curProgram = vProgIdx;
+
+            for (var i = 0; i < datacontext.CompetitionData.events.length; i++) {
+                if (datacontext.CompetitionData.events[i].event_name == vEvent.event_name) {
+                    datacontext.curEvent = i;
+                    break;
+                }
+            }
+
             vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
             vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
             getCurCompetitorsData();
         }
 
-        vm.changeCurEvent = function (vEventIdx) {
-            datacontext.curProgram = 0;
-            datacontext.curEvent = vEventIdx;
-            vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
-            vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
-            getCurCompetitorsData();
-        }
+        //vm.changeCurProgram = function (vProgIdx) {
+        //    datacontext.curProgram = vProgIdx;
+        //    vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
+        //    vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
+        //    getCurCompetitorsData();
+        //}
+
+        //vm.changeCurEvent = function (vEventIdx) {
+        //    datacontext.curProgram = 0;
+        //    datacontext.curEvent = vEventIdx;
+        //    vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
+        //    vm.curProgramName = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].program_name;
+        //    getCurCompetitorsData();
+        //}
 
         //decide if it's a pair event
         vm.isPairEvent = function(){
