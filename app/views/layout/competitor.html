@@ -20,7 +20,7 @@
                                 </div>
 
                                 <div>
-                                    <ul class="list">
+                                    <ul class="list" ng-class="{'pairs':vm.isPairEvent()}">
                                         <li ng-repeat="evCompetitor in vm.competitors | filter:{names: search.name}" ng-click="vm.gotoCompetitorOverview(evCompetitor)"
                                             ng-show="$index <= 2 && search.name">
                                                 

@@ -18,6 +18,7 @@
         vm.maxNumListViewStats = datacontext.maxNumListViewStats;
         vm.curMove = 'Overview';
 
+        console.log(datacontext);
 
         //Get the current competitor from the datacontext service
         if (datacontext.CompetitionData && datacontext.curCompetitor && datacontext.CompetitionData.events.length > 0) {
@@ -46,6 +47,16 @@
             }
 
             return result;
+        }
+
+        //decide if it's a pair event
+        vm.isPairEvent = function(){
+            if(datacontext.curEvent == "2" ||
+                datacontext.curEvent == "3" ) {
+                return true;
+            } else {
+                return false;
+            }
         }
 
         //navigate to overview (depracated)
