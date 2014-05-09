@@ -9,11 +9,16 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#/leaderboard"><i class="glyphicon glyphicon-chevron-left"></i></a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <div class="skater-image-small pull-left"><img class="pull-left" ng-src="{{vm.competitor.picture}}"></div>
                             <span ng-repeat="evName in vm.competitor.names">{{evName}}</span> <b class="caret"></b></a>
 
                         <div class="dropdown-menu">
+                            <form class="navbar-form" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
+                            </div>
+                            </form>
                         </div>
                     </li>
                     <li class="dropdown">
@@ -72,10 +77,11 @@
 
             <ul class="list">
                 <li ng-repeat="evOverviewStat in vm.OverviewStats.stats_tracked | limitTo:vm.maxNumListViewStats">
-                    <center>
-                        <h3>{{evOverviewStat.stat_name}}</h3>
+                    <div class="{{evOverviewStat.stat_id}}">
+
+                        <span>{{evOverviewStat.stat_name}}</span>
                         <h3>{{vm.getStatValue(evOverviewStat.stat_id)}}</h3>
-                    </center>
+                    </div>
                 </li>
             </ul>
         </div>

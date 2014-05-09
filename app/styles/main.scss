@@ -11,6 +11,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 $primary-red: #af0000;
 $secondary-red: #c74d4d;
 $highlight-red: #540000;
+$dark-red: #9e0000;
+$pink: #ffb9b9;
 
 $nav-base: #fff;
 $nav-secondary: #fdfdfd;
@@ -42,7 +44,14 @@ $nav-secondary: #fdfdfd;
         padding: 20px 10px;
         .caret {
             color: #777;
-        }   
+        }
+        a {
+            color: #777;
+            text-decoration: none;
+            &:hover {
+                color: #333;
+            }
+        }
     }
 }
 
@@ -67,6 +76,68 @@ $nav-secondary: #fdfdfd;
         }
         &:last-child {
             border-bottom: none;
+        }
+    }
+}
+
+#section-competition {
+    .container {
+        margin-top: 40px;
+        .event {
+            position: relative;
+            .event-image {
+                display: block;
+                height: 117px;
+                width: 100%;
+                .event-title {
+                    background: rgba(0, 0, 0, 0.5);
+                    height: 117px;
+                    position: absolute;
+                    width: 100%;
+                    z-index: 2;
+                    span {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 18px;
+                        display: block;
+                        line-height: 117px;
+                        text-align: center;
+                    }
+                }
+                img {
+                    position: absolute;
+                    width: 100%;
+                }
+            }
+            &:first-child {
+                    overflow: hidden;
+                    border-top-left-radius: 4px;
+                    border-top-right-radius: 4px;
+                
+            }
+            &:last-child {
+                .list-header {
+                    li {
+                        a {
+                            border-bottom-left-radius: 4px;
+                            border-bottom-right-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+        .list-header {
+            li {
+                border-right: 1px solid #eee;
+                padding: 0;
+                    a {
+                        display: block;
+                        padding: 20px 10px;
+                    }
+                &:first-child { 
+                    border-left: 1px solid #eee;
+                }
+            }
         }
     }
 }
@@ -142,6 +213,35 @@ $nav-secondary: #fdfdfd;
                 .divider {
                     background: $secondary-red;
                     margin: 0;
+                }
+            }
+            div.dropdown-menu {
+                padding: 0;
+                .col-lg-3 {
+                    padding: 10px 0;
+                    .event-title {
+                        color: white;
+                        font-size: 18px;
+                        padding: 0 15px;
+                    }
+                    ul {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        li {
+                            a {
+                                color: $pink;
+                                display: block;
+                                text-decoration: none;
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(even) {
+                        background: $dark-red;
+                    }
                 }
             }
         }
@@ -260,6 +360,7 @@ $nav-secondary: #fdfdfd;
 }
 
 #section-competitor {
+    background: #f6f6f6;
     margin-top: 30px;
     border: 1px solid #e7e7e7;
     border-radius: 4px;
@@ -277,7 +378,35 @@ $nav-secondary: #fdfdfd;
 
         .list {
             li {
+                background: white;
                 cursor: auto;
+                padding: 20px 0;
+                span {
+                    color: #999;
+                    font-size: 18px;
+                    font-weight: bold;
+                    display: block;
+                    text-align: center;
+                }
+                h3 {
+                    color: #777;
+                    display: block;
+                    font-size: 48px;
+                    margin-top: 0;
+                    text-align: center;
+                }
+                .ranking {
+                    background: url(../images/icon_ranking.png) no-repeat 30px center;
+                }
+                .avg_speed {
+                    background: url(../images/icon_avg_speed.png) no-repeat 20px center;
+                }
+                .max_speed {
+                    background: url(../images/icon_max_speed.png) no-repeat 25px center;
+                }
+                .ice_coverage {
+                    background: url(../images/icon_ice_coverage.png) no-repeat 20px center;
+                }
             }
         }
     }

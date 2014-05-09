@@ -1,5 +1,52 @@
-<div ng-controller="competitionCtrl as vm">
+<!-- MAIN CONTENT -->
+<div ng-controller="competitionCtrl as vm" class="container-fluid" id="section-competition">
+    <div class="container">
+        <div ng-repeat="comp in vm.competition" class="event">
+            <div class="event-image">
+                <div class="event-title"><span>{{comp.event_name}}</span></div>
+                <img src="/images/{{comp.event_type}}.jpg" />
+            </div>
+        
+            <ul class="list-header row">
+            <li class="col-lg-6" ng-repeat="program in comp.programs"><a href="#">{{program.program_name}}</a></li>
+            </ul>
+        </div>
+        <!-- <img src="/images/{{vm.competitionEventsImage}}" alt=""> -->
+
+
+        <!-- MAIN CONTENT -->
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 bhoechie-tab-container">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+                        <div class="list-group">
+                            <a class="list-group-item text-center ng-scope" ng-repeat="ev in vm.competition" ng-click="vm.eventClicked($index)" ng-class="{'active':vm.competitionTabs[$index].active}">
+                                <h3>{{ev.event_name}}</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+                        <div class="bhoechie-tab-content" ng-repeat="ev in vm.competition" ng-class="{'active':vm.competitionTabs[$index].active}">
+                            <center>
+                                <h2>{{ev.event_name}}</h2>
+                                <ul class="list">
+                                    <li ng-repeat="cont in ev.programs" class="row" ng-click="vm.gotoLeaderBoard($index)">
+                                        <h3>{{cont.program_name}}</h3>
+                                    </li>
+                                </ul>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--!end MAIN CONTENT -->
+    </div>
+</div><!--!end MAIN CONTENT -->
     
+
 <!--     <div class="well well-sm" id="section-competitions">
     <div class="row" ng-repeat="ev in vm.competition" ng-class="{'active':vm.competitionTabs[$index].active}">
         <div class="col-lg-12">
@@ -16,33 +63,5 @@
     </div>
     </div> -->
     
-    <!-- MAIN CONTENT -->
-    <div class="container">
-    <div class="row">
 
-        <div class="col-xs-12 bhoechie-tab-container">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
-                <div class="list-group">
-                    <a class="list-group-item text-center ng-scope" ng-repeat="ev in vm.competition" ng-click="vm.eventClicked($index)" ng-class="{'active':vm.competitionTabs[$index].active}">
-                        <h3>{{ev.event_name}}</h3>
-                    </a>
-                </div>
-            </div>
 
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
-                <div class="bhoechie-tab-content" ng-repeat="ev in vm.competition" ng-class="{'active':vm.competitionTabs[$index].active}">
-                    <center>
-                        <h2>{{ev.event_name}}</h2>
-                        <ul class="list">
-                            <li ng-repeat="cont in ev.programs" class="row" ng-click="vm.gotoLeaderBoard($index)">
-                                <h3>{{cont.program_name}}</h3>
-                            </li>
-                        </ul>
-                    </center>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!--!end MAIN CONTENT -->
-</div>
