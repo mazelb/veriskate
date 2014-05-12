@@ -1,0 +1,472 @@
+{
+   "stats_cat": [
+        {
+           "cat_name":"Overview",
+           "cat_id":"overview",
+           "stats_tracked": [
+                {
+                   "stat_name":"Ranking",
+                   "stat_id":"ranking"
+                },
+                {
+                   "stat_name":"Avg. Speed",
+                   "stat_id":"avg_speed"
+                },
+                {
+                   "stat_name":"Max. Speed",
+                   "stat_id":"max_speed"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"ice_coverage"
+                }
+            ]
+        },
+        {
+           "cat_name":"2-Combo",
+           "cat_id":"2-Combo",
+           "cat_types": [
+               "2-combo"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                },
+                {
+                   "stat_name":"Distance",
+                   "stat_id":"move_distance"
+                }
+            ]
+        },
+        {
+           "cat_name":"3-Combo",
+           "cat_id":"3-Combo",
+           "cat_types": [
+               "3-combo"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                },
+                {
+                   "stat_name":"Distance",
+                   "stat_id":"move_distance"
+                }
+            ]
+        },
+        {
+           "cat_name":"Choreo Seq",
+           "cat_id":"Choreo Seq",
+           "cat_types": [
+               "ChSq"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"move_coverage"
+                }
+            ]
+        },
+        {
+           "cat_name":"Death Spiral",
+           "cat_id":"Death Spiral",
+           "cat_types": [
+               "Bi",
+               "Bo",
+               "Fi"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Rotations",
+                   "stat_id":"move_rotations"
+                },
+                {
+                   "stat_name":"Revs Per Sec.",
+                   "stat_id":"move_rot_per_sec"
+                }
+            ]
+        },
+        {
+           "cat_name":"Finn Step 1",
+           "cat_id":"Finn Step 1",
+           "cat_types": [
+               "1FS"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"move_coverage"
+                }
+            ]
+        },
+        {
+           "cat_name":"Finn Step 2",
+           "cat_id":"Finn Step 2",
+           "cat_types": [
+               "2FS"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"move_coverage"
+                }
+            ]
+        },
+        {
+           "cat_name":"Jump",
+           "cat_id":"Jump",
+           "cat_types": [
+               "A",
+               "F",
+               "Lo",
+               "Lz",
+               "S",
+               "T"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Rot",
+                   "stat_id":"move_rot"
+                },
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Height",
+                   "stat_id":"move_height"
+                },
+                {
+                   "stat_name":"Distance",
+                   "stat_id":"move_distance"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                }
+            ]
+        },
+        {
+           "cat_name":"Lift",
+           "cat_id":"Lift",
+           "cat_types": [
+                3,
+               "5A",
+               "5B",
+               "5R",
+               "5S",
+               "5T",
+               "Ch",
+               "Cu",
+               "Ro",
+               "Sl",
+               "St"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"move_coverage"
+                }
+            ]
+        },
+        {
+           "cat_name":"Lift Combo",
+           "cat_id":"Lift Combo",
+           "cat_types": [
+               "Cu",
+               "SI"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"move_coverage"
+                }
+            ]
+        },
+        {
+           "cat_name":"SEQ",
+           "cat_id":"SEQ",
+           "cat_types": [
+               "SEQ"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Rot",
+                   "stat_id":"move_rot"
+                },
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Distance",
+                   "stat_id":"move_distance"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                }
+            ]
+        },
+        {
+           "cat_name":"Spin",
+           "cat_id":"Spin",
+           "cat_types": [
+               "CC",
+               "CCo",
+               "Co",
+               "Cs",
+               "FC",
+               "FCCo",
+               "FCo",
+               "FCs",
+               "FS",
+               "FU",
+               "L",
+               "PCo",
+               "Sp"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Rotations",
+                   "stat_id":"move_rotations"
+                },
+                {
+                   "stat_name":"Revs Per Sec.",
+                   "stat_id":"move_rot_per_sec"
+                }
+            ]
+        },
+        {
+           "cat_name":"Step Seq",
+           "cat_id":"Step Seq",
+           "cat_types": [
+               "Ci",
+               "Di",
+               "NtCi",
+               "NtMi",
+               "StSq"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"move_coverage"
+                }
+            ]
+        },
+        {
+           "cat_name":"Throw",
+           "cat_id":"Throw",
+           "cat_types": [
+               "3F",
+               "3Lo",
+               "3Lz",
+               "3S"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Height",
+                   "stat_id":"move_height"
+                },
+                {
+                   "stat_name":"Distance",
+                   "stat_id":"move_distance"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                }
+            ]
+        },
+        {
+           "cat_name":"Twist",
+           "cat_id":"Twist",
+           "cat_types": [
+               "Tw"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Rot",
+                   "stat_id":"move_rot"
+                },
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Height",
+                   "stat_id":"move_height"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                }
+            ]
+        },
+        {
+           "cat_name":"Twizzle",
+           "cat_id":"Twizzle",
+           "cat_types": [
+               "STw"
+            ],
+           "stats_tracked": [
+                {
+                   "stat_name":"Speed",
+                   "stat_id":"move_speed"
+                },
+                {
+                   "stat_name":"Flow",
+                   "stat_id":"move_flow"
+                },
+                {
+                   "stat_name":"Ice Coverage",
+                   "stat_id":"move_coverage"
+                }
+            ]
+        }
+    ],
+   "events": [
+        {
+           "guid":"fb12bf2e-5406-49ab-8432-114035b259f3",
+           "event_name":"Men",
+           "event_type":"men",
+           "programs": [
+                {
+                   "guid":"3029bda5-9594-45ab-9aa5-9db4528f517d",
+                   "program_name":"Free Program",
+                   "program_type":"free",
+                   "competitors": 
+					[
+					]
+                },
+                {
+                   "guid":"55443565-7990-478b-b507-6030684edafd",
+                   "program_name":"Short Program",
+                   "program_type":"short",
+                   "competitors": 
+					[
+					]
+                }
+            ]
+        },
+        {
+           "guid":"c1f90981-8f64-4e8e-adc9-3b7b289e2b53",
+           "event_name":"Ladies",
+           "event_type":"ladies",
+           "programs": [
+                {
+                   "guid":"9b25281d-0232-4b77-9df9-efda9b700397",
+                   "program_name":"Free Program",
+                   "program_type":"free",
+                   "competitors": 
+					[
+					]
+                },
+                {
+                   "guid":"40247a65-2e3d-4bd4-abab-cebee6cfe2ae",
+                   "program_name":"Short Program",
+                   "program_type":"short",
+                   "competitors": 
+					[
+					]
+                }
+            ]
+        },
+        {
+           "guid":"f840d6e0-4a70-4d31-b8bb-f86834d33371",
+           "event_name":"Pairs",
+           "event_type":"pairs",
+           "programs": [
+                {
+                   "guid":"08b3617c-0de5-4bab-8c1b-db03918c3da1",
+                   "program_name":"Free Program",
+                   "program_type":"free",
+                   "competitors": 
+					[
+					]
+                },
+                {
+                   "guid":"77ad7238-d62c-47fa-b703-c9d48ecb2360",
+                   "program_name":"Short Program",
+                   "program_type":"short",
+                   "competitors": 
+					[
+					]
+                }
+            ]
+        },
+        {
+           "guid":"ec658bd4-95f8-4a27-8836-3769e5a4873f",
+           "event_name":"Dance",
+           "event_type":"dance",
+           "programs": [
+                {
+                   "guid":"b9186330-cf8b-442f-aed9-0013d77947d4",
+                   "program_name":"Free Dance",
+                   "program_type":"free",
+                   "competitors": 
+					[
+					]
+                },
+                {
+                   "guid":"c5bfc0fb-62ed-4ee7-9254-c2cd97fdf7ff",
+                   "program_name":"Short Dance",
+                   "program_type":"short",
+                   "competitors": 
+					[
+					]
+                }
+            ]
+        }
+    ]
+}
