@@ -22,7 +22,7 @@
             for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
                 if (datacontext.CompetitionData.stats_cat[i].cat_id === vm.move.move_category) {
                     vm.moveCategory = datacontext.CompetitionData.stats_cat[i];
-                    console.log(vm.moveCategory.stats_tracked);
+                    // console.log(vm.moveCategory.stats_tracked);
                 }
             }
         }
@@ -111,12 +111,12 @@
         }
 
         vm.filterByMoveClicked = function () {
-            console.log('toggle filtering by move');
+            // console.log('toggle filtering by move');
             vm.filterByMoveType = !vm.filterByMoveType;
         }
         
         vm.filterByRotClicked = function () {
-            console.log('toggle filtering by Rot');
+            // console.log('toggle filtering by Rot');
             vm.filterByMoveRotations = !vm.filterByMoveRotations;
         }
 

@@ -24,6 +24,8 @@
             vm.moves = vm.competitor.moves;
             vm.competitors = datacontext.CompetitionData.events[datacontext.curEvent].programs[datacontext.curProgram].competitors;
 
+            console.log(datacontext.curCompetitor);
+
             for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
                 if (datacontext.CompetitionData.stats_cat[i].cat_id === 'overview') {
                     vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
@@ -73,5 +75,7 @@
             datacontext.curMove = vMove;
             $location.path('/move/');
         }
+
+        // jwplayer().load('/images/video.mp4');
     }
 })();

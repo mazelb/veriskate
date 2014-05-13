@@ -61,7 +61,11 @@
 
         <!-- VIDEO CONTENT -->
         <div class="col-lg-8">
-            <img class="video-temp" ng-src="{{vm.competitor.overview.video_url}}">
+            <video id="example_video_1" class="video-js vjs-default-skin"
+                  controls preload="auto" width="784" height="441">
+                 <source src="/images/video.mp4" type='video/mp4' />
+                 Your browser doesn't suppoer this format
+                </video>
         </div>
         <!-- end VIDEO CONTENT  -->
 
