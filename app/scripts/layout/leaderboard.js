@@ -152,10 +152,22 @@
         }
 
         vm.gotoLeaderBoard = function (vIdx) {
-            console.log("working");
+            // console.log("working");
             datacontext.curProgram = vIdx;
             $location.path('/leaderboard/');
             //window.location = '#/leaderboard/';
+        }
+
+        vm.setBarStyle = function (barIndex) {
+            //DEBUG barIndex
+            //console.log(barIndex);
+            return {'left' : ((60*barIndex)+(10*barIndex))+'px'};
+        }
+
+        //TEMP FUNCTION
+        vm.tempBarHeight = function (barIndex) {
+            //697 graph max height - 60 avatar height 
+            return {'height' : ((697-60)-((50*(barIndex+1))))+'px'};
         }
         
     }

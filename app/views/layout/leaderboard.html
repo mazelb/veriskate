@@ -1,104 +1,111 @@
+<!-- LEADERBOARD CONTROLLER -->
 <div ng-controller="leaderboardCtrl as vm">
+  
+<!-- NAVBAR -->
+<nav class="navbar navbar-default" role="navigation" id="main-nav">
+    <div class="container-fluid">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="#"><i class="glyphicon glyphicon-chevron-left"></i></a></li>
 
-    <div id="skater-list">
-
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-default" role="navigation" id="main-nav">
-            <div class="container-fluid">
-                <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-
-                        <!-- NEW -->
-                        <ul class="nav navbar-nav">
-                            
-                            <li><a href="#"><i class="glyphicon glyphicon-chevron-left"></i></a></li>
-
-                            <!-- current event -->
-                            <li class="dropdown dropdown-long"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{vm.curEventName}} &raquo; {{vm.curProgramName}}<b class="caret"></b></a>
-                                <div class="dropdown-menu row" role="menu">
-                                    <div class="col-lg-3" ng-repeat="evEvent in vm.events">
-                                        <div class="event-title">{{evEvent.event_name}}</div>
-                                        <ul>
-                                            <li ng-repeat="evProgram in evEvent.programs" ng-click="vm.changeCurProgram(evEvent, $index)"><a href="">{{evProgram.program_name}}</a></li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-
-                                <!-- <ul class="dropdown-menu" role="menu">
-                                    <li ng-repeat="evEvent in vm.events" ng-click="vm.changeCurEvent($index)"><a href="">{{evEvent.event_name}}</a></li>
-                                </ul>  -->
-                            </li>
-                            
-                            <!-- current event -->
-                            <!--<li class="dropdown dropdown-long"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{vm.curEventName}} <b class="caret"></b></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li ng-repeat="evEvent in vm.events" ng-click="vm.changeCurEvent($index)"><a href="">{{evEvent.event_name}}</a></li>
-                                </ul> 
-                            </li>-->
-
-                            <!-- current event programs 
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{vm.curProgramName}} <b class="caret"></b></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li ng-repeat="evProg in vm.programs" ng-click="vm.changeCurProgram($index)"><a href="">{{evProg.program_name}}</a></li>
+                    <!-- current event -->
+                    <li class="dropdown dropdown-long"><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{vm.curEventName}} &raquo; {{vm.curProgramName}}<b class="caret"></b></a>
+                        <div class="dropdown-menu row" role="menu">
+                            <div class="col-lg-3" ng-repeat="evEvent in vm.events">
+                                <div class="event-title">{{evEvent.event_name}}</div>
+                                <ul>
+                                    <li ng-repeat="evProgram in evEvent.programs" ng-click="vm.changeCurProgram(evEvent, $index)"><a href="">{{evProgram.program_name}}</a></li>
                                 </ul>
-                            </li>-->
-
-                            <!-- category 
-                            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Categories <b class="caret"></b></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li ng-repeat="evCat in vm.categories"><a role="menuitem" tabindex="{{$index}}" ng-click="vm.categoryChanged($index)">{{evCat.cat_name}}</a></li>
-                                </ul>
-                            </li>-->
-                        </ul>
-                        <!--end NEW -->
-
-                        <div class="btn-group">
-                            <div class="btn btn-default active view-list">List</div>
-                            <div class="btn btn-default disabled view-graph">Graph</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <form class="navbar-form" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
                             </div>
-                        </form>
-                    </div>
-
-                </div><!-- !end row -->
-                </div><!-- !end container -->
-            </div>
-        </nav>
-        <!-- END NAVBAR -->
-
-        <!-- FILTERED LIST -->
-        <div class="container" id="section-filterlist" ng-class="{'pairs':vm.isPairEvent()}">
-            <ul class="list-header row">
-                <li class="col-lg-4" ng-click="vm.changeSortingPredicate('names', 0)" ng-class="{'selected':vm.isCurSortingPredicate('names')}">
-                    Competitor(s)<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span>
-                </li>
-                <li class="col-lg-2" ng-repeat="evCatStat in vm.OverviewStats.stats_tracked  | limitTo:vm.maxNumListViewStats" ng-click="vm.changeSortingPredicate(evCatStat.stat_id)" ng-class="{'selected':vm.isCurSortingPredicate(evCatStat.stat_id)}">
-                    {{evCatStat.stat_name}}<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span>
-                </li>
-            </ul>
-
-            <ul class="list">
-                <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.gotoCompetitor(evCompetitor)">
-                    <div class="col-lg-4 cell">
-                        <div>
-                            <div class="skater-image pull-left"><img ng-src="{{evCompetitor.picture}}" /></div>
-                            <div class="skater-name" ng-repeat="evName in evCompetitor.names">{{evName}}</div>
                         </div>
+                    </li>
+                </ul>
+
+                <div class="btn-group">
+                    <div class="btn btn-default active view-list">List</div>
+                    <div class="btn btn-default disabled view-graph">Graph</div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <form class="navbar-form" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control search" placeholder="Search Skater" ng-model="search.name">
                     </div>
-                    <div class="col-lg-2 cell" ng-repeat="evOverviewStat in vm.OverviewStats.stats_tracked | limitTo:vm.maxNumListViewStats">
-                        {{vm.parseOverviewStats(evOverviewStat.stat_id, evCompetitor)}}
+                </form>
+            </div>
+
+        </div><!-- !end row -->
+        </div><!-- !end container -->
+    </div>
+</nav>
+<!-- END NAVBAR -->
+
+
+<!-- GRAPH VIEW -->
+<div class="container" id="section-filtergraph">
+    <!-- 
+    @TODO: associate value to bar
+    -->
+
+    <ul class="list-header row">     
+        <li class="col-lg-3" ng-repeat="evCatStat in vm.OverviewStats.stats_tracked  | limitTo:vm.maxNumListViewStats">
+            {{evCatStat.stat_name}}<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span>
+        </li>  
+    </ul>
+    <div class="list-container">
+        <div class="yaxis">
+            <span class="measure">km/h</span>
+            <span class="vr"></span>
+            <span class="max">50</span>
+            <span class="min">0</span>
+        </div> 
+        <div class="graphs">
+            
+            <ul class="list">
+                <li ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-style="vm.setBarStyle($index)">
+                    <div class="bar" ng-style="vm.tempBarHeight($index)"></div>
+                    <div class="skater-profile">
+                        <img src="images/nancy_kerrigan.jpg" />
                     </div>
                 </li>
             </ul>
+
         </div>
-        <!-- end FILTERED LIST -->
+        <!-- <div class="xaxis"></div> -->
     </div>
 </div>
+<!--!end GRAPH VIEW -->
+        
+<!-- FILTERED LIST -->
+<div class="container" id="section-filterlist" ng-class="{'pairs':vm.isPairEvent()}">
+    <ul class="list-header row">
+        <li class="col-lg-4" ng-click="vm.changeSortingPredicate('names', 0)" ng-class="{'selected':vm.isCurSortingPredicate('names')}">
+            Competitor(s)<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span>
+        </li>
+        <li class="col-lg-2" ng-repeat="evCatStat in vm.OverviewStats.stats_tracked  | limitTo:vm.maxNumListViewStats" ng-click="vm.changeSortingPredicate(evCatStat.stat_id)" ng-class="{'selected':vm.isCurSortingPredicate(evCatStat.stat_id)}">
+            {{evCatStat.stat_name}}<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span>
+        </li>
+    </ul>
+
+    <ul class="list">
+        <li class="row" ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-click="vm.gotoCompetitor(evCompetitor)">
+            <div class="col-lg-4 cell">
+                <div>
+                    <div class="skater-image pull-left"><img ng-src="{{evCompetitor.picture}}" /></div>
+                    <div class="skater-name" ng-repeat="evName in evCompetitor.names">{{evName}}</div>
+                </div>
+            </div>
+            <div class="col-lg-2 cell" ng-repeat="evOverviewStat in vm.OverviewStats.stats_tracked | limitTo:vm.maxNumListViewStats">
+                {{vm.parseOverviewStats(evOverviewStat.stat_id, evCompetitor)}}
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- end FILTERED LIST -->
+
+</div>
+<!--!end LEADERBOARD CONTROLLER -->
 

@@ -30,7 +30,10 @@
         return service;
 
         function getCompetitionData() {
+            //DEV
             return $http.get('json/competition.json');
+            //LIVE
+            // return $http.get('http://veriskate.s3.amazonaws.com/competition.json');
         }
     }
 })();
