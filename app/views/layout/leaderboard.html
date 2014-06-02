@@ -22,6 +22,29 @@
                             </div>
                         </div>
                     </li>
+
+                    <li class="dropdown dropdown-slide">
+                    <a href="#" class="dropdown-toggle" data="dropdown">Overview<b class="caret"></b></a>
+
+                    <div class="dropdown-menu">
+                        <div class="dropdown-menu-container" ng-class="vm.menuState">
+                        <ul class="primary-menu">
+                            <li><a ng-click="vm.preventClose($event)">Overview</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li><a ng-click="vm.preventClose($event)">3-Combo</a></li>
+                            <li><a ng-click="vm.preventClose($event)">2-Combo</a></li>
+                            <li><a ng-click="vm.preventClose($event)">2-Combo</a></li>
+                        </ul>
+                        <ul class="secondary-menu">
+                            <li><a ng-click="vm.goBack($event)">Back</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li><a href="#">3-Combo</a></li>
+                            <li><a href="#">2-Combo</a></li>
+                            <li><a href="#">2-Combo</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <li>
                 </ul>
 
                 <div class="btn-group">

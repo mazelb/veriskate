@@ -69,22 +69,23 @@ $nav-secondary: #fdfdfd;
                 background: $primary-red;
                 border: none;
                 max-height: 500px;
-                overflow: scroll;
+                overflow-y: scroll;
+                overflow-x: hidden;
                 padding: 0;
-                
-                li {
-                    border: none;
-                    a {
-                        padding: 10px 15px;
-                        &:hover {
-                            background: $highlight-red;
+                    li {
+                        list-style: none;
+                        border: none;
+                        a {
+                            padding: 10px 15px;
+                            &:hover {
+                                background: $highlight-red;
+                            }
                         }
                     }
-                }
-                .divider {
-                    background: $secondary-red;
-                    margin: 0;
-                }
+                    .divider {
+                        background: $secondary-red;
+                        margin: 0;
+                    }
             }
             .dropdown-menu-search {
                 width: 350px;
@@ -161,6 +162,60 @@ $nav-secondary: #fdfdfd;
                     &:nth-child(even) {
                         background: $dark-red;
                     }
+                }
+            }
+        }
+
+        .dropdown-slide {
+            .dropdown-menu-container {
+                display: block;
+                overflow-y: scroll;
+                overflow-x: hidden;
+                width: 700px;
+            }
+            .dropdown-menu {
+                width: 350px;
+                ul {
+                    background: $primary-red;
+                    border: none;
+                    display: block;
+                    float: left;
+                    max-height: 500px;
+                    overflow: hidden;
+                    width: 342px;
+                    padding: 0;
+
+                  -webkit-transition:0.3s linear all;
+                  -moz-transition:0.3s linear all;
+                  -o-transition:0.3s linear all;
+                  transition:0.3s linear all;
+                        li {
+                            list-style: none;
+                            border: none;
+                            a {
+                                display: block;
+                                padding: 10px 15px;
+                                text-decoration: none;
+                                &:hover {
+                                    background: $highlight-red;
+                                }
+                            }
+                        }
+                        .divider {
+                            background: $secondary-red;
+                            margin: 0;
+                        }
+                }
+                .primary-menu {
+                    margin-left: 0;
+                }
+                .slide {
+                    .primary-menu {
+                        margin-left: -342px;
+                    }
+                }
+                .secondary-menu {
+                    background: $dark-red;
                 }
             }
         }

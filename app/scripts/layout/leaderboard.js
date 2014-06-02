@@ -169,6 +169,20 @@
             //697 graph max height - 60 avatar height 
             return {'height' : ((697-60)-((50*(barIndex+1))))+'px'};
         }
+
+        vm.menuState = '';
+
+        vm.preventClose = function (event) {
+            vm.menuState = 'slide';
+            event.stopPropagation();
+        }
+
+        vm.goBack = function (event) {
+            vm.menuState = '';
+            event.stopPropagation();
+        }
+
+
         
     }
 })();
