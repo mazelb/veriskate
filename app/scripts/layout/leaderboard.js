@@ -52,6 +52,7 @@
                     if (datacontext.CompetitionData.stats_cat[i].cat_id === 'overview') {
                         vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
                         vm.currentGraphCategory = vm.OverviewStats;
+                        vm.currentGraphType = vm.currentGraphCategory
                     }
                 }
             }
@@ -138,6 +139,14 @@
         vm.selectCategoryGraph = function(vEvent, vCat) {
             vm.preventClose(vEvent);
             vm.currentGraphCategory = vCat;
+        }
+
+        vm.selectTypeGraph = function(vType) {
+            vm.currentGraphType = vType;
+
+            //search for current competitors with this type of element 
+            //sort the found competitors 
+            //set the graphs heights for each one
         }
 
 

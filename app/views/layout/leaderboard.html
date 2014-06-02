@@ -29,14 +29,14 @@
                     <div class="dropdown-menu">
                         <div class="dropdown-menu-container" ng-class="vm.menuState">
                         <ul class="primary-menu">
-                            <li><a ng-click="vm.preventClose($event)">Overview</a></li>
+                            <li><a ng-click="vm.selectCategoryGraph($event, vm.OverviewStats)">Overview</a></li>
                             <li role="presentation" class="divider"></li>
                             <li ng-repeat="evCat in vm.categories" ng-if="evCat.cat_name!='Overview'"><a ng-click="vm.selectCategoryGraph($event, evCat)">{{evCat.cat_name}}</a></li>
                         </ul>
                         <ul class="secondary-menu">
                             <li><a ng-click="vm.goBack($event)">Back</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li ng-repeat="evType in vm.currentGraphCategory.cat_types"><a href="">{{evType}}</a></li>
+                            <li ng-repeat="evType in vm.currentGraphCategory.cat_types"><a ng-click="vm.selectTypeGraph(evType)">{{evType}}</a></li>
                         </ul>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
     -->
 
     <ul class="list-header row">     
-        <li class="col-lg-3" ng-repeat="evCatStat in vm.OverviewStats.stats_tracked  | limitTo:vm.maxNumListViewStats">
+        <li class="col-lg-3" ng-repeat="evCatStat in vm.currentGraphCategory.stats_tracked  | limitTo:vm.maxNumListViewStats">
             {{evCatStat.stat_name}}<span class="caret" ng-class="{'caret-reversed': vm.reverseSort}"></span>
         </li>  
     </ul>
@@ -87,7 +87,7 @@
                 <li ng-repeat="evCompetitor in vm.competitors | orderBy:vm.sortingpredicate:vm.reverseSort | filter:{names: search.name}" ng-style="vm.setBarStyle($index)">
                     <div class="bar" ng-style="vm.tempBarHeight($index)"></div>
                     <div class="skater-profile">
-                        <img src="images/nancy_kerrigan.jpg" />
+                        <img ng-src="{{evCompetitor.picture}}" />
                     </div>
                 </li>
             </ul>
