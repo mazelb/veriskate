@@ -398,7 +398,7 @@
 							"overview": {
 							  "ranking": 1,
 							  "avg_speed": 0,
-							  "max_speed": 99,
+							  "max_speed": 0,
 							  "ice_coverage": 0,
 							  "video_url": "http://54.87.120.25:8080/files/men-fp-10.mp4.render.avi.mp4"
 							},

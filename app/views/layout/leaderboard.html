@@ -31,16 +31,12 @@
                         <ul class="primary-menu">
                             <li><a ng-click="vm.preventClose($event)">Overview</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li><a ng-click="vm.preventClose($event)">3-Combo</a></li>
-                            <li><a ng-click="vm.preventClose($event)">2-Combo</a></li>
-                            <li><a ng-click="vm.preventClose($event)">2-Combo</a></li>
+                            <li ng-repeat="evCat in vm.categories" ng-if="evCat.cat_name!='Overview'"><a ng-click="vm.selectCategoryGraph($event, evCat)">{{evCat.cat_name}}</a></li>
                         </ul>
                         <ul class="secondary-menu">
                             <li><a ng-click="vm.goBack($event)">Back</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li><a href="#">3-Combo</a></li>
-                            <li><a href="#">2-Combo</a></li>
-                            <li><a href="#">2-Combo</a></li>
+                            <li ng-repeat="evType in vm.currentGraphCategory.cat_types"><a href="">{{evType}}</a></li>
                         </ul>
                         </div>
                     </div>

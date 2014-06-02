@@ -51,6 +51,7 @@
                 for (var i = 0; i < datacontext.CompetitionData.stats_cat.length; i++) {
                     if (datacontext.CompetitionData.stats_cat[i].cat_id === 'overview') {
                         vm.OverviewStats = datacontext.CompetitionData.stats_cat[i];
+                        vm.currentGraphCategory = vm.OverviewStats;
                     }
                 }
             }
@@ -120,6 +121,26 @@
             getCurCompetitorsData();
         }
 
+        //Graph view functions 
+
+        vm.setBarStyle = function (barIndex) {
+            //DEBUG barIndex
+            //console.log(barIndex);
+            return {'left' : ((60*barIndex)+(10*barIndex))+'px'};
+        }
+
+        //TEMP FUNCTION
+        vm.tempBarHeight = function (barIndex) {
+            //697 graph max height - 60 avatar height 
+            return {'height' : ((697-60)-((50*(barIndex+1))))+'px'};
+        }
+
+        vm.selectCategoryGraph = function(vEvent, vCat) {
+            vm.preventClose(vEvent);
+            vm.currentGraphCategory = vCat;
+        }
+
+
         //vm.changeCurProgram = function (vProgIdx) {
         //    datacontext.curProgram = vProgIdx;
         //    vm.curEventName = datacontext.CompetitionData.events[datacontext.curEvent].event_name;
@@ -156,18 +177,6 @@
             datacontext.curProgram = vIdx;
             $location.path('/leaderboard/');
             //window.location = '#/leaderboard/';
-        }
-
-        vm.setBarStyle = function (barIndex) {
-            //DEBUG barIndex
-            //console.log(barIndex);
-            return {'left' : ((60*barIndex)+(10*barIndex))+'px'};
-        }
-
-        //TEMP FUNCTION
-        vm.tempBarHeight = function (barIndex) {
-            //697 graph max height - 60 avatar height 
-            return {'height' : ((697-60)-((50*(barIndex+1))))+'px'};
         }
 
         vm.menuState = '';
